@@ -6,7 +6,8 @@ import { ImMenu, ImSun } from 'react-icons/im';
 export default function Navbar() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   return (
-    <div className="sticky top-0 z-20 w-full bg-[var(--primary-color-1)]  md:fixed md:left-14 md:mt-5 md:flex  md:h-[32rem] md:w-16  md:flex-col md:rounded-lg md:shadow-md md:shadow-green-500 ">
+    <div className="sticky top-0 z-20 w-full bg-[var(--primary-color-1)]  md:mr-3 md:mt-5 md:flex  md:h-[32rem] md:w-16  md:flex-col md:rounded-lg md:shadow-md md:shadow-green-500 md:float-left ">
+
       <div className=" h-18  flex w-full items-center justify-between px-5 py-2">
         <div className="flex items-start justify-between md:hidden ">
           <img

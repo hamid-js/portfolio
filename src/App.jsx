@@ -8,15 +8,20 @@ import Footer from './features/footer/Footer';
 
 function App() {
   return (
-    <main className="text-stone-200 md:flex md:flex-col md:items-center md:justify-center  md:w-3/4 md:m-auto md:mr-16 md:gap-3 md:text-xl md:shadow-lg md:shadow-green-500 "  >
-      <Navbar />
-      <HeaderCard />
-      <ResumeCard />
-      <Skills />
-      <Works />
-      <Testomonials />
-      <Footer />
-    </main>
+    <div className="flex-col md:justify-center  text-stone-200 md:flex  md:items-start md:gap-3 md:ml-7 md:flex-row  ">
+      <nav  className=" ">
+        <Navbar />
+      </nav>
+
+      <main className="   md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-green-500  ">
+        <HeaderCard />
+        <ResumeCard />
+        <Skills />
+        <Works />
+        <Testomonials />
+        <Footer />
+      </main>
+    </div>
   );
 }
 

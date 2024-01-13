@@ -4,20 +4,57 @@ export default function Title({
   icon = '',
   border = '700',
   width = '5/6',
-  size = '3xl',
   padding = "7",
   heading,
 }) {
- 
-  return (
+
+  if(heading ==="sm") return (
     <div
-      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-${size} capitalize tracking-widest `}
+      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-xl capitalize tracking-widest  md:text-2xl`}
     >
-      <span className="text-green-400">{icon}</span>
+      <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>
-        <span className="text-white">{firstPart}</span>
-        <span className="text-green-300">{secondPart}</span>
+        <span className="text-[--color-white]">{firstPart}</span>
+        <span className="text-[var(--secondary-color-300)]">{secondPart}</span>
       </div>
     </div>
   );
+ if(heading === "lg") return (
+    <div
+      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-3xl capitalize tracking-widest  md:text-2xl`}
+    >
+      <span className="text-[var(--secondary-color-400)]">{icon}</span>
+      <div>
+        <span className="text-[--color-white]">{firstPart}</span>
+        <span className="text-[var(--secondary-color-300)]">{secondPart}</span>
+      </div>
+    </div>
+  );
+ if(heading === "big") return (
+    <div
+      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-4xl capitalize tracking-widest  md:text-2xl`}
+    >
+      <span className="text-[var(--secondary-color-400)]">{icon}</span>
+      <div>
+        <span className="text-[--color-[--color-white]]">{firstPart}</span>
+        <span className="text-[var(--secondary-color-300)]">{secondPart}</span>
+      </div>
+    </div>
+  );
+ 
+  return (
+    <div
+      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-2xl capitalize tracking-widest  md:text-2xl`}
+    >
+      <span className="text-[var(--secondary-color-400)]">{icon}</span>
+      <div>
+        <span className="text-[--color-white]">{firstPart}</span>
+        <span className="text-[var(--secondary-color-300)]">{secondPart}</span>
+      </div>
+    </div>
+  );
+
+
+
+
 }

@@ -13,7 +13,7 @@ function App() {
         <Navbar />
       </nav>
 
-      <main className="   md:mr-16 md:w-4/6 md:text-xl md:shadow-lg  md:shadow-green-500  ">
+      <main className="   md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-[var(--secondary-color-500)]  ">
         <HeaderCard />
         <ResumeCard />
         <Skills />

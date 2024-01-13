@@ -14,8 +14,8 @@ import {
 
 export default function Footer() {
   return (
-    <div className="mt-14 rounded-lg bg-[var(--primary-color-3)]">
-      <div className="flex flex-wrap items-center justify-center gap-10 p-10 text-6xl text-green-300">
+    <div className="mt-14 rounded-lg bg-[var(--primary-color-700)]">
+      <div className="flex flex-wrap items-center justify-center gap-10 p-10 text-6xl text-[var(--secondary-color-300)]">
         <SiReact />
         <SiJavascript />
         <SiCss3 />

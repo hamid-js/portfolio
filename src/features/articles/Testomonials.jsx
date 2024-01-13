@@ -2,11 +2,11 @@ import { ImUsers } from 'react-icons/im';
 
 export default function Testomonials() {
   return (
-    <div className=" my-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-2)] pb-20    ">
-      <span className="flex w-5/6 items-center gap-5 border-b border-slate-700 px-7 py-7 font-serif text-2xl  text-green-300 ">
+    <div className=" my-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)] pb-20    ">
+      <span className="flex w-5/6 items-center gap-5 border-b border-[var(--primary-color-700)] px-7 py-7 font-serif text-2xl  text-[var(--secondary-color-300)] ">
         <ImUsers />
         <span>
-          <span className="text-white"> Testo</span>
+          <span className="text-[--color-white]"> Testo</span>
           <span>monials</span>
         </span>
       </span>
@@ -27,7 +27,7 @@ export default function Testomonials() {
           </button>
 
           <img
-            className="h-28 w-28 rounded-full border-2 border-green-500 "
+            className="h-28 w-28 rounded-full border-2 border-[var(--secondary-color-500)] "
             src="/assets/img-2.png"
             alt=""
           />
@@ -38,9 +38,9 @@ export default function Testomonials() {
         <span className="mt-5 font-medium capitalize">Helen Floyd</span>
         <span className="text-sm text-gray-400"> Art Director </span>
         <ul className="mt-7 flex">
-          <li className="mx-2 h-3 w-3  cursor-pointer rounded-full bg-white active:bg-green-500"></li>
-          <li className="mx-2 h-3 w-3 cursor-pointer rounded-full bg-green-500 active:bg-green-500"></li>
-          <li className="mx-2 h-3 w-3  cursor-pointer rounded-full bg-white active:bg-green-500"></li>{' '}
+          <li className="mx-2 h-3 w-3  cursor-pointer rounded-full bg-[--color-white] active:bg-[var(--secondary-color-500)]"></li>
+          <li className="mx-2 h-3 w-3 cursor-pointer rounded-full bg-[var(--secondary-color-500)] active:bg-[var(--secondary-color-500)]"></li>
+          <li className="mx-2 h-3 w-3  cursor-pointer rounded-full bg-[--color-white] active:bg-[var(--secondary-color-500)]"></li>
         </ul>
       </div>
     </div>

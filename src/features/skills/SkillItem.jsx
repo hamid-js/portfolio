@@ -11,7 +11,7 @@ export default function SkillItem({
       <div className="mb-2 flex items-center  justify-start gap-4">
         <div className="my-2 h-2 w-5/6 overflow-hidden  border">
           <div
-            className={`w-${fill} h-full bg-green-500 transition-all`}
+            className={`w-${fill} h-full bg-[var(--secondary-color-500)] transition-all`}
           ></div>
         </div>
         {<div>{percentage}%</div>}

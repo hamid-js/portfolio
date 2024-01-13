@@ -8,8 +8,8 @@ import Footer from './features/footer/Footer';
 
 function App() {
   return (
-    <div className="flex-col md:justify-center  text-stone-200 md:flex  md:items-start md:gap-3 md:ml-7 md:flex-row  ">
-      <nav  className=" ">
+    <div className="flex-col md:justify-center  text-stone-200 md:flex  md:items-start md:gap-20 md:ml-7 md:flex-row  ">
+      <nav >
         <Navbar />
       </nav>
 

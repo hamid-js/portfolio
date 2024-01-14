@@ -3,11 +3,11 @@ import Menu from './Menu';
 import { useState } from 'react';
 import { ImMenu, ImSun } from 'react-icons/im';
 
-export default function Navbar({showActiveComponent}) {
+export default function Navbar({ showActiveComponent }) {
   const [isDarkMode, setIsDarkMode] = useState(true);
   return (
-    <div className="fixed top-0 z-20 w-full bg-[var(--primary-color-900)]  md:mr-3 md:mt-5 md:flex  md:h-[32rem] md:w-16  md:flex-col md:rounded-lg md:shadow-md md:shadow-[var(--secondary-color-500)] md:float-left md:fixed lg:static  ">
-
+    <div className="fixed top-0 z-20 w-full bg-[var(--primary-color-900)]  md:fixed md:float-left md:mr-3  md:mt-5 md:flex  md:h-[32rem] md:w-16 md:flex-col md:rounded-lg md:shadow-md md:shadow-[var(--secondary-color-500)] lg:static  ">
+    
       <div className=" h-18  flex w-full items-center justify-between px-5 py-2">
         <div className="flex items-start justify-between md:hidden ">
           <img
@@ -18,7 +18,9 @@ export default function Navbar({showActiveComponent}) {
 
           <div className="mx-3">
             <h2 className="capitalize">Hamid Mohammadi</h2>
-            <p className="text-xs text-[var(--secondary-color-400)]">Front-End Developer</p>
+            <p className="text-xs text-[var(--secondary-color-400)]">
+              Front-End Developer
+            </p>
           </div>
         </div>
 

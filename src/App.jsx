@@ -21,7 +21,7 @@ function App() {
     // 
   return (
     <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  ">
-      <nav className="">
+      <nav>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
 

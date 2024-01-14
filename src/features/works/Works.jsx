@@ -7,7 +7,7 @@ export default function Works() {
   return (
     <div
       id="projects"
-      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12  lg:h-[35rem] lg:rounded-lg lg:pt-[55rem]  "
+      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12  lg:h-[35rem] lg:rounded-lg lg:pt-[65rem]  "
     >
       <Title
         icon={<ImStarFull />}
@@ -15,10 +15,10 @@ export default function Works() {
         secondPart="jects"
         border={'500'}
         width="full"
-        heading="sm"
+        heading="big"
       />
 
-      <div className="px-7 py-7 bg-[var(--primary-color-800)] lg:pt-52">
+      <div className="px-7 py-7 bg-[var(--primary-color-800)] ">
         <WorkItem />
         <WorkItem />
       </div>

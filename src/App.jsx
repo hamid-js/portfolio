@@ -6,6 +6,7 @@ import Skills from './features/skills/Skills';
 import Works from './features/works/Works';
 import Footer from './features/footer/Footer';
 import { useState } from 'react';
+import Terminal from './features/terminal/Terminal';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('about');
@@ -15,9 +16,9 @@ function App() {
 
   const sections =
     ' lg:hidden lg:max-h-[38rem] lg:transition-all lg:duration-1000  lg:my-10  lg:rounded-xl ';
-  // lg:translate-x-full lg:absolute lg:top-0 lg:translate-x-full
   const open =
-    '  lg:!block   lg:!opacity-100  animated-element  ';
+    '  lg:!block   lg:!opacity-100 animated-element  ';
+    // 
   return (
     <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  ">
       <nav className="">
@@ -36,6 +37,7 @@ function App() {
             } `}
           >
             <ResumeCard />
+            <Testomonials />
           </div>
           <div
             className={` ${sections} ${
@@ -43,6 +45,7 @@ function App() {
             } `}
           >
             <Skills />
+            
           </div>
           <div
             className={` ${sections} ${
@@ -51,20 +54,26 @@ function App() {
           >
             <Works />
           </div>
+
+
+          <div
+            className={` ${sections} ${
+              activeComponent === 'terminal' ? open : ''
+            } `}
+          >
+            <Terminal /> 
+          </div>
+
+
           <div
             className={` ${sections} ${
               activeComponent === 'contact' ? open : ''
             } `}
           >
-            <Testomonials />
+          <Footer />
+           
           </div>
-          <div
-            className={` ${sections} ${
-              activeComponent === 'footer' ? open : ''
-            } `}
-          >
-            <Footer />
-          </div>
+         
         </section>
       </main>
     </div>
@@ -72,3 +81,5 @@ function App() {
 }
 
 export default App;
+
+

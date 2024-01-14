@@ -4,6 +4,7 @@ import {
   ImGithub,
   ImInstagram,
   ImLinkedin,
+  ImMail,
   ImTelegram,
   ImXing2,
 } from 'react-icons/im';
@@ -33,37 +34,69 @@ export default function HiroCard() {
       <h2 className="text-l font-serif  capitalize text-[var(--secondary-color-400)]">
         Front-End Devloper
       </h2>
-      <div className="my-3 flex w-full items-center justify-center gap-5 p-3 md:text-2xl ">
-        <span>
-          <ImGithub />
-        </span>
-        <span>
-          <ImLinkedin />
-        </span>
-        <span>
-          <ImXing2 />
-        </span>
-        <span>
+      <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-2xl ">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/hamid_develop_"
+        >
           <ImInstagram />
-        </span>
-        <span>
+        </a>
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/hamid-js"
+        >
+          <ImGithub />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="mailto: hamid.reactjs@gmail.com"
+        >
+          <ImMail />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://t.me/hamid_develop"
+        >
           <ImTelegram />
-        </span>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
+        >
+          <ImLinkedin />
+        </a>
       </div>
       <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)]">
-        <div className="flex items-center justify-center gap-2">
-          <a href="#">download cv</a>
-          <span>
-            <ImCloudDownload />
-          </span>
-        </div>
+        <a
+          className="p-4"
+          href="/assets/cv-hamid-mohammadi.pdf"
+          download="cv-hamid-mohammadi.pdf"
+        >
+          <div className="flex items-center justify-center gap-2">
+            <span>download cv</span>
+
+            <span>
+              <ImCloudDownload />
+            </span>
+          </div>
+        </a>
+
         <span className="h-20 border-r-[1px] border-[var(--primary-color-700)] "></span>
-        <div className="flex items-center justify-center gap-2">
-          <a href="#">contact me</a>
-          <span>
-            <ImCompass />
-          </span>
-        </div>
+        <a className="p-4" href="tel:09371355148">
+          <div className="flex items-center justify-center gap-2">
+            <span> contact me</span>
+
+            <span>
+              <ImCompass />
+            </span>
+          </div>
+        </a>
       </div>
     </div>
   );

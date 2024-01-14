@@ -1,9 +1,13 @@
 import { ImGithub, ImPlay2 } from 'react-icons/im';
 import MiniSkill from '../skills/MiniSkill';
+import Title from '../ui/Title';
 
 export default function WorkItem() {
   return (
-    <div className=" mb-10 flex flex-col items-center justify-evenly gap-4 rounded-2xl bg-[var(--primary-color-70)] p-7 ">
+    <>
+    
+    <div className=" mb-10 flex flex-col items-center justify-evenly gap-4 rounded-2xl bg-[var(--primary-color-700)] p-7  ">
+    <Title />
       <img className=" rounded-lg" src="/assets/img-8.jpg" alt="" />
 
       <span className="font-medium uppercase  text-[--color-white] ">
@@ -19,7 +23,7 @@ export default function WorkItem() {
         cars for personal or business use. The website provides an interface for
         searching, comparing, and reserving cars.
       </p>
-      <div className=" ">
+      <div >
         <MiniSkill text="react" />
         <MiniSkill text="scss" />
       </div>
@@ -37,5 +41,6 @@ export default function WorkItem() {
         </a>
       </div>
     </div>
+    </>
   );
 }

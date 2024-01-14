@@ -42,20 +42,22 @@ h6 {
 
 
 
-.animated-element {
-  display: none;
-  transform: translateX(-100%);
-  animation: slideIn 1.5s ease-in-out forwards;
-}
-
-@keyframes slideIn {
-  from {
+@media screen and (min-width: 1024px) {
+  .animated-element {
     display: none;
     transform: translateX(-100%);
+    animation: slideIn 1.5s ease-in-out forwards;
   }
-  to {
-    display: block;
-    transform: translateX(0);
+
+  @keyframes slideIn {
+    from {
+      display: none;
+      transform: translateX(-100%);
+    }
+    to {
+      display: block;
+      transform: translateX(0);
+    }
   }
 }
 

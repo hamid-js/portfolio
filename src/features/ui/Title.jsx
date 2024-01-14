@@ -2,15 +2,12 @@ export default function Title({
   firstPart = 'first',
   secondPart = 'second',
   icon = '',
-  border = '700',
-  width = '5/6',
-  padding = "7",
   heading,
 }) {
 
   if(heading ==="sm") return (
     <div
-      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-xl capitalize tracking-widest  md:text-2xl`}
+      className="border-slate-700 flex w-5/6 items-center gap-5 border-b p-3 font-serif text-xl capitalize tracking-widest  md:text-xl"
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>
@@ -21,7 +18,7 @@ export default function Title({
   );
  if(heading === "lg") return (
     <div
-      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-3xl capitalize tracking-widest  md:text-2xl`}
+      className="border-slate-800 flex w-5/6 items-center gap-5 border-b p-3 font-serif text-2xl capitalize tracking-widest  md:text-3xl"
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>
@@ -30,9 +27,9 @@ export default function Title({
       </div>
     </div>
   );
- if(heading === "big") return (
+ if(heading === "xl") return (
     <div
-      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-4xl capitalize tracking-widest  md:text-2xl`}
+      className="border-slate-700 flex w-5/6 items-center gap-5 border-b p-3 font-serif text-xl capitalize tracking-widest  md:text-4xl"
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>
@@ -44,7 +41,7 @@ export default function Title({
  
   return (
     <div
-      className={`border-slate-${border} flex w-${width} items-center gap-5 border-b p-${padding} font-serif text-2xl capitalize tracking-widest  md:text-2xl`}
+      className="border-slate-700 flex w-5/6 items-center gap-5 border-b p-3 font-serif text-xl capitalize tracking-widest  md:text-2xl"
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>

@@ -6,7 +6,7 @@ import { ImStatsBars2, ImTerminal, ImTrophy } from 'react-icons/im';
 
 export default function Skills() {
   return (
-    <div className="mb-12 flex flex-col items-start justify-evenly bg-[var(--primary-color-800)]  px-5  pb-12    ">
+    <div id='resume' className="mb-12 flex flex-col items-start justify-evenly bg-[var(--primary-color-800)]  px-5  pb-12    ">
       <Title
         icon={<ImStatsBars2 />}
         firstPart="Ski"

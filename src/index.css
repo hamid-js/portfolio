@@ -39,3 +39,48 @@ h6 {
 .my-clip-path {
   clip-path: polygon(0 0, 100% 0, 100% 60%, 80% 100%, 21% 100%, 0 70%);
 }
+
+
+
+.animated-element {
+  display: none;
+  transform: translateX(-100%);
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    display: none;
+    transform: translateX(-100%);
+  }
+  to {
+    display: block;
+    transform: translateX(0);
+  }
+}
+
+/* Set the color of the main scrollbar track */
+::-webkit-scrollbar {
+  width: 20px; /* Adjust the width as needed */
+}
+
+/* Set the color of the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color-600); /* Change this to your desired color */
+  border-radius: 6px; /* Optional: Rounded corners for the thumb */
+}
+
+/* Set the color of the scrollbar track when the handle is being dragged */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-color-500); /* Change this to your desired hover color */
+}
+
+/* Set the color of the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background-color: var(--secondary-color-300); /* Change this to your desired track color */
+}
+
+/* Set the color of the scrollbar corners (optional) */
+::-webkit-scrollbar-corner {
+  background-color: var(--secondary-color-300); /* Change this to your desired color */
+}

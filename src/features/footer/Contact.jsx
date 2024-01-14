@@ -7,7 +7,7 @@ export default function Contact() {
   const inputStyle =
     'bg-inherit border-b  border-slate-500 outline-none focus:border-b-[var(--secondary-color-500)] focus:border-b-2 transition-all focus-within:placeholder:text-white w-full';
   return (
-    <div className="bg-inherit ">
+    <div id='contact' className="bg-inherit ">
       <Title
         icon={<ImBubble2 />}
         firstPart="Contact "

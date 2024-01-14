@@ -5,7 +5,10 @@ import { ImStarFull } from 'react-icons/im';
 
 export default function Works() {
   return (
-    <div className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12    ">
+    <div
+      id="projects"
+      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12  lg:h-[35rem] lg:rounded-lg lg:pt-[55rem]  "
+    >
       <Title
         icon={<ImStarFull />}
         firstPart="pro"
@@ -15,7 +18,7 @@ export default function Works() {
         heading="sm"
       />
 
-      <div className="px-7 py-7">
+      <div className="px-7 py-7 bg-[var(--primary-color-800)] lg:pt-52">
         <WorkItem />
         <WorkItem />
       </div>

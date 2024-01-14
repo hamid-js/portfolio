@@ -1,9 +1,9 @@
 import { ImMagicWand, ImProfile } from 'react-icons/im';
 import Title from '../ui/Title';
 
-export default function ResumeCard() {
+export default function ResumeCard({activeSection}) {
   return (
-    <div className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]    ">
+    <div id='about' className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]    ">
       <Title
         icon={<ImProfile />}
         firstPart="About "

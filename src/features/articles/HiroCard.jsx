@@ -10,7 +10,7 @@ import {
 
 export default function HiroCard() {
   return (
-    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]">
+    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  lg:max-h-[37rem]  xl:max-h-[42rem]">
       <video
         autoPlay
         loop

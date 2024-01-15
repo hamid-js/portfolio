@@ -93,7 +93,7 @@ const Terminal = () => {
           I'm Hamid Mohamadi
         </span>
         <div>
-          <Typewriter text={text} maxWidth={500} wordDelay={20} />
+          <Typewriter text={text} maxWidth={500} wordDelay={50} />
         </div>
         <div className="my-10 flex gap-4 text-[var(--secondary-color-600)]">
           <a href="">Email</a>

@@ -24,8 +24,8 @@ export default function ResumeCard() {
         width="2/3"
       />
 
-      <div className="px-7">
-        <p className="font-extralightligh text  pb-12 text-lg text-[var(--color-gray)] md:text-xl lg:text-2xl ">
+      <div className="px-7 lg:px-10 xl:px-16 ">
+        <p className="font-extralightligh text  pb-12 text-lg text-[var(--color-gray)] md:text-xl lg:text-2xl xl:text-3xl ">
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,
           troubleshooting, licensing, and updating hardware and software assets.

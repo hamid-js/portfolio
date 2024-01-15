@@ -66,7 +66,7 @@ function App() {
 
 
           <div
-            className={` ${sections} ${
+            className={`  ${sections}  ${
               activeComponent === 'contact' ? open : ''
             } `}
           >

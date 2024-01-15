@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function SkillItem({
   title = 'skill',
-  fill = '5/5',
+  className = ' ',
   percentage = '100',
 }) {
   return (
@@ -11,7 +11,7 @@ export default function SkillItem({
       <div className="mb-2 flex items-center  justify-start gap-4">
         <div className="my-2 h-2 w-5/6 overflow-hidden  border">
           <div
-            className={`w-${fill} h-full bg-[var(--secondary-color-500)] transition-all`}
+            className={`w-5/5 h-full bg-[var(--secondary-color-500)] transition-all ${className}`}
           ></div>
         </div>
         {<div>{percentage}%</div>}
@@ -21,12 +21,12 @@ export default function SkillItem({
 }
 SkillItem.propTypes = {
   title: PropTypes.string.isRequired,
-  fill: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
   percentage: PropTypes.string.isRequired,
 };
 
 SkillItem.defaultProps = {
   title: 'skill',
-  fill: '5/5',
+  className: ' ',
   percentage: '100',
 };

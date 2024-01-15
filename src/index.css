@@ -26,6 +26,7 @@
 body {
   background-image: url(/assets/img-7.jpg);
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -60,10 +61,27 @@ h6 {
     }
   }
 }
+/* //////////////// */
 
-/* Set the color of the main scrollbar track */
-::-webkit-scrollbar {
-  width: 20px; /* Adjust the width as needed */
+.typewriter-container {
+  overflow: hidden;
+}
+
+.typewriter-text {
+  white-space: pre;
+  overflow: hidden;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  display: inline-block;
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
 }
 
 /* Set the color of the scrollbar handle (thumb) */

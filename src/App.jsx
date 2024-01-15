@@ -15,10 +15,9 @@ function App() {
   }
 
   const sections =
-    ' lg:hidden lg:max-h-[38rem] lg:transition-all lg:duration-1000  lg:my-10  lg:rounded-xl ';
-  const open =
-    '  lg:!block   lg:!opacity-100 animated-element  ';
-    // 
+    ' lg:hidden lg:max-h-[38rem] lg:transition-all lg:duration-1000  lg:rounded-xl ';
+  const open = '  lg:!block   lg:!opacity-100 animated-element  ';
+  //
   return (
     <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  ">
       <nav>
@@ -26,11 +25,11 @@ function App() {
       </nav>
 
       <main className="    md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-[var(--secondary-color-500)] lg:m-0 lg:mr-9 lg:flex lg:w-full lg:items-start lg:justify-between lg:gap-5 lg:shadow-none ">
-        <div className=" lg:max-h-[43rem] lg:min-w-[28rem] xl:max-h-[43rem] xl:min-w-[35rem]  ">
+        <div className=" lg:max-h-[43rem] lg:min-w-[28rem] xl:mt-10 xl:max-h-[33rem] xl:min-w-[30rem] ">
           <HeaderCard />
         </div>
 
-        <section className="lg:max-h-[35rem] lg:overflow-y-scroll lg:my-7 lg:rounded-xl xl:min-w-96  lg:shadow-lg lg:shadow-[var(--secondary-color-500)] lg:min-w-[25rem]  lg:border lg:border-[var(--secondary-color-500)] ">
+        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:min-w-80 xl:mr-20 xl:max-h-[28rem] xl:mt-20 ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''
@@ -45,7 +44,6 @@ function App() {
             } `}
           >
             <Skills />
-            
           </div>
           <div
             className={` ${sections} ${
@@ -55,25 +53,21 @@ function App() {
             <Works />
           </div>
 
-
           <div
             className={` ${sections} ${
               activeComponent === 'terminal' ? open : ''
             } `}
           >
-            <Terminal /> 
+            <Terminal />
           </div>
-
 
           <div
             className={`  ${sections}  ${
               activeComponent === 'contact' ? open : ''
             } `}
           >
-          <Footer />
-           
+            <Footer />
           </div>
-         
         </section>
       </main>
     </div>
@@ -81,5 +75,3 @@ function App() {
 }
 
 export default App;
-
-

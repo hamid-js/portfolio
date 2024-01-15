@@ -12,7 +12,7 @@ export default function Testomonials() {
       </span>
 
       <div className="flex flex-col items-center justify-center px-7 ">
-        <div className="relative text-gray-500 before:absolute before:left-[-10px] before:top-0 before:text-7xl before:content-['\201C'] after:absolute  after:right-0 after:top-52  after:text-7xl after:content-['\201D'] ">
+        <div className="relative text-[var(--color-gray)] before:absolute before:left-[-10px] before:top-0 before:text-7xl before:content-['\201C'] after:absolute  after:right-0 after:top-52  after:text-7xl after:content-['\201D'] ">
           <p className=" font-extralightligh text-wrap px-10 pb-7 pt-4 text-lg  ">
             A system administrator, or sysadmin, Data scientist, Systems
             engineer from USA, California.I have rich experience in managing

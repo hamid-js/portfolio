@@ -7,7 +7,7 @@ export default function Works() {
   return (
     <div
       id="projects"
-      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12  lg:h-[35rem]  lg:pt-[65rem] xl:pt-[75rem] 2xl:pt-[80rem] "
+      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  pb-12  lg:h-[35rem]  lg:pt-[60rem] xl:pt-[65rem] 2xl:pt-[80rem] "
     >
       <Title
         icon={<ImStarFull />}

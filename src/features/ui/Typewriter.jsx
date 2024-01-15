@@ -5,11 +5,15 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
 
   useEffect(() => {
     let currentCharIndex = 0;
+
     const animateTypewriter = () => {
       if (currentCharIndex < text.length) {
         setAnimatedText((prevText) => prevText + text[currentCharIndex]);
         currentCharIndex++;
         setTimeout(animateTypewriter, wordDelay);
+      } else if (currentCharIndex === text.length) {
+        // Animation is complete, no need to continue
+        return;
       }
     };
 
@@ -22,7 +26,7 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
   }, [text, wordDelay]);
 
   return (
-    <div className="typewriter-container" style={{ maxWidth: `${maxWidth}px` }}>
+    <div className={`typewriter-container ${maxWidth && 'text-wrap'}`} style={{ maxWidth: `${maxWidth}px` }}>
       <p className="typewriter-text">{animatedText}</p>
     </div>
   );

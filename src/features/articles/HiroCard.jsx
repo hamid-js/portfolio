@@ -11,14 +11,14 @@ import {
 
 export default function HiroCard() {
   return (
-    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  lg:max-h-[37rem]  xl:max-h-[42rem]">
+    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  lg:max-h-[37rem]  xl:max-h-[32rem] ">
       <video
         autoPlay
         loop
         muted
         playsInline
         preload="auto"
-        className="my-clip-path h-72 w-full object-cover  md:h-80 md:rounded-t-lg  "
+        className="my-clip-path h-72 w-full object-cover  md:h-80 md:rounded-t-lg xl:h-44  "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

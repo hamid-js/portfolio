@@ -11,8 +11,6 @@ export default function ResumeCard() {
         icon={<ImProfile />}
         firstPart="About "
         secondPart="Me"
-        border={'500'}
-        padding={'7'}
         heading="lg"
       />
       <Title
@@ -24,8 +22,8 @@ export default function ResumeCard() {
         width="2/3"
       />
 
-      <div className="px-7 lg:px-10 xl:px-16 ">
-        <p className="font-extralightligh text  pb-12 text-lg text-[var(--color-gray)] md:text-xl lg:text-2xl xl:text-3xl ">
+      <div className="px-7 lg:px-10 xl:px-16 text-[var(--color-gray)] ">
+        <p className="font-extralightligh  pb-12 text-lg  md:text-xl ">
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,
           troubleshooting, licensing, and updating hardware and software assets.
@@ -46,7 +44,7 @@ export default function ResumeCard() {
           padding="7"
           width="2/3"
         />
-        <p className="m-3 p-3">
+        <p className="m-3 p-3 md:text-xl">
           troubleshooting, licensing, and updating hardware and software assets.
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,

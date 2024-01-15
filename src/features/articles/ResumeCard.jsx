@@ -1,6 +1,20 @@
 import { ImMagicWand, ImProfile } from 'react-icons/im';
 import Title from '../ui/Title';
-
+import Typewriter from '../ui/Typewriter';
+const text = `A system administrator, or sysadmin,
+ Data scientist, Systems engineer
+from USA, California. I have rich
+ experience in managing,
+troubleshooting, licensing,
+and updating hardware and software assets.
+A system administrator,
+ or sysadmin, Data scientist, Systems engineer
+from USA, California. 
+I have rich experience in managing,
+troubleshooting, licensing, and updating 
+hardware and software assets.
+A system administrator.
+`;
 export default function ResumeCard() {
   return (
     <div
@@ -22,19 +36,9 @@ export default function ResumeCard() {
         width="2/3"
       />
 
-      <div className="px-7 lg:px-10 xl:px-16 text-[var(--color-gray)] ">
+      <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-16 ">
         <p className="font-extralightligh  pb-12 text-lg  md:text-xl ">
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
+          <Typewriter text={text} maxWidth={400} wordDelay={20} />
         </p>
         <Title
           icon={<ImMagicWand />}
@@ -44,7 +48,10 @@ export default function ResumeCard() {
           padding="7"
           width="2/3"
         />
+
         <p className="m-3 p-3 md:text-xl">
+      
+
           troubleshooting, licensing, and updating hardware and software assets.
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,
@@ -52,12 +59,7 @@ export default function ResumeCard() {
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,
           troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
+        
         </p>
       </div>
     </div>

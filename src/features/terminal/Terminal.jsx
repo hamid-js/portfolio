@@ -85,7 +85,7 @@ const Terminal = () => {
     and optimal websites and web apps.
     Also, I'm open to remote 
     and in-person positions. 
-    You can reach me at `;
+    You can reach me at:`;
 
   return (
     <div className="xl:p-auto lg:w-6/6 h-full w-full overflow-hidden rounded-md bg-[--color-black] text-[--primary-color-300] shadow-md lg:p-10">

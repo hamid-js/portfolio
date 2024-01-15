@@ -7,6 +7,7 @@ import Works from './features/works/Works';
 import Footer from './features/footer/Footer';
 import { useState } from 'react';
 import Terminal from './features/terminal/Terminal';
+import MouseFollower from './features/ui/MouseFollower';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('about');
@@ -19,7 +20,8 @@ function App() {
   const open = '  lg:!block   lg:!opacity-100 animated-element  ';
   //
   return (
-    <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  ">
+    <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  z-[9999] ">
+    <MouseFollower />
       <nav>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>

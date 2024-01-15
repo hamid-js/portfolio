@@ -8,7 +8,7 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
 
     const animateTypewriter = () => {
       if (currentCharIndex < text.length) {
-        setAnimatedText((prevText) => prevText + text[currentCharIndex]);
+        setAnimatedText((prevText) => prevText + text[currentCharIndex-1]);
         currentCharIndex++;
         setTimeout(animateTypewriter, wordDelay);
       } else if (currentCharIndex === text.length) {

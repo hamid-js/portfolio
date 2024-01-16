@@ -88,8 +88,8 @@ const Terminal = () => {
     You can reach me at:`;
 
   return (
-    <div className="xl:p-auto lg:w-6/6 h-full w-full overflow-hidden rounded-md bg-[--color-black] text-[--primary-color-300] shadow-md lg:p-10">
-      <div className="w-4/4 m-auto pb-5  xl:text-xl">
+    <div className="xl:p-auto lg:w-6/6 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] ">
+      <div className="w-4/4 m-auto pb-5  xl:text-xl ">
         <span className="ml-3 text-[var(--secondary-color-600)]">
           {' '}
           Hi, I'm Hamid Mohamadi
@@ -121,7 +121,7 @@ const Terminal = () => {
             value={input}
             onChange={handleInputChange}
             onKeyDown={(e) => e.key === 'Enter' && handleEnter()}
-            className="text-[--primary-color-300] my-7 ml-2 border-none bg-transparent focus:outline-none"
+            className="my-7 ml-2 border-none bg-transparent text-[--primary-color-300] focus:outline-none"
           />
         </div>
       </div>

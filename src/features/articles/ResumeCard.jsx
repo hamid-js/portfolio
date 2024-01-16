@@ -13,13 +13,13 @@ from USA, California.
 I have rich experience in managing,
 troubleshooting, licensing, and updating 
 hardware and software assets.
-A system administrator.
+
 `;
 export default function ResumeCard() {
   return (
     <div
       id="about"
-      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]    "
+      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]   "
     >
       <Title
         icon={<ImProfile />}
@@ -37,9 +37,9 @@ export default function ResumeCard() {
       />
 
       <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-16 ">
-        <p className="font-extralightligh  pb-12 text-lg  md:text-xl ">
+        <div className="font-extralightligh  pb-12 text-lg  md:text-xl ">
           <Typewriter text={text} maxWidth={400} wordDelay={20} />
-        </p>
+        </div>
         <Title
           icon={<ImMagicWand />}
           firstPart="wordpress "

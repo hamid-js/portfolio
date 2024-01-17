@@ -18,7 +18,7 @@ export default function HiroCard() {
         muted
         playsInline
         preload="auto"
-        className="my-clip-path h-72 w-full object-cover  md:h-80 md:rounded-t-lg xl:h-44  "
+        className="my-clip-path h-72 w-full object-cover  md:h-70 md:rounded-t-lg xl:h-44  "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

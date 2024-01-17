@@ -76,27 +76,27 @@ const Terminal = () => {
     setInput('');
   };
 
-  const text = `    a passionate web developer and
-    skilled programmer
-    fluent in Persian and English. Currently,
-    I work as a freelancer, creating user-friendly
-    and optimal websites and web apps.
-    Also, I'm open to remote 
-    and in-person positions. 
-    You can reach me at:`;
+  const text = ` 
+  Currently,I work as a freelancer,
+   creating user-friendly
+  and optimal websites and web apps.
+  Also, I'm open to remote 
+  and in-person positions. 
+  You can reach me at:`;
 
   return (
     <div
       id="terminal"
-      className="lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] "
+      className=" lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] "
     >
-      <div className="w-4/4 m-auto pb-5  xl:text-xl ">
-        <span className="ml-3 text-[var(--secondary-color-600)]">
+      <div className="w-4/4  m-auto pb-5  xl:text-xl ">
+        <span className=" text-[var(--secondary-color-600)]">
           Hi, I'm Hamid Mohamadi
         </span>
-        <div>
-          <Typewriter text={text} maxWidth={400} wordDelay={50} />
-        </div>
+        a passionate web developer and skilled programmer fluent in Persian and
+        English.
+        <Typewriter text={text} maxWidth={400} wordDelay={50} />
+        <div></div>
         <div className="my-5 flex gap-4 text-purple-400">
           <a href="">Email</a>
           <a href="">Telegram</a>

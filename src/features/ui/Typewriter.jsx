@@ -27,8 +27,8 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
 
   return (
     <div
-      className={`typewriter-container w-full  ${maxWidth && 'text-wrap'} `}
-      style={{ maxWidth: `${maxWidth}px` }}
+      className={`typewriter-container max-w-72 xl:max-w-md  `}
+     
     >
       <p className="typewriter-text">{animatedText}</p>
     </div>

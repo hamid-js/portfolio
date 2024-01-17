@@ -1,14 +1,16 @@
 import { ImMagicWand, ImProfile } from 'react-icons/im';
 import Title from '../ui/Title';
 import Typewriter from '../ui/Typewriter';
-const text = `A system administrator, or sysadmin,
+const text = `A system administrator,
+ or sysadmin,
  Data scientist, Systems engineer
 from USA, California. I have rich
  experience in managing,
 troubleshooting, licensing,
-and updating hardware and software assets.
+and updating hardware and software assets. engineer
 A system administrator,
- or sysadmin, Data scientist, Systems engineer
+ or sysadmin,
+  Data scientist, Systems engineer
 from USA, California. 
 I have rich experience in managing,
 troubleshooting, licensing, and updating 
@@ -36,8 +38,9 @@ export default function ResumeCard() {
         width="2/3"
       />
 
-      <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-16 ">
+      <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-8 ">
         <div className="font-extralightligh  pb-12 text-lg  md:text-xl ">
+          <Typewriter text={text} maxWidth={250} wordDelay={20} />
         </div>
         <Title
           icon={<ImMagicWand />}
@@ -55,7 +58,9 @@ export default function ResumeCard() {
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,
           troubleshooting, licensing, and updating hardware and software assets.
-        
+          A system administrator, or sysadmin, Data scientist, Systems engineer
+          from USA, California. I have rich experience in managing,
+          troubleshooting, licensing, and updating hardware and software assets.
         
         </p>
       </div>

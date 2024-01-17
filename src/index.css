@@ -70,7 +70,6 @@ h6 {
 .typewriter-text {
   white-space: pre;
   overflow: hidden;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
   display: inline-block;
 }
 

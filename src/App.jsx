@@ -32,7 +32,7 @@ function App() {
           <HeaderCard />
         </div>
 
-        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-20 xl:mt-20 xl:max-h-[28rem] xl:min-w-80 ">
+        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10 xl:mt-20 xl:max-h-[28rem] xl:min-w-80 ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''

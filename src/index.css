@@ -106,23 +106,3 @@ h6 {
 }
 
 
-/* Set the color of the scrollbar handle (thumb) */
-::-webkit-scrollbar-thumb {
-  background-color: var(--secondary-color-600); /* Change this to your desired color */
-  border-radius: 6px; /* Optional: Rounded corners for the thumb */
-}
-
-/* Set the color of the scrollbar track when the handle is being dragged */
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--secondary-color-500); /* Change this to your desired hover color */
-}
-
-/* Set the color of the scrollbar track (background) */
-::-webkit-scrollbar-track {
-  background-color: var(--secondary-color-300); /* Change this to your desired track color */
-}
-
-/* Set the color of the scrollbar corners (optional) */
-::-webkit-scrollbar-corner {
-  background-color: var(--secondary-color-300); /* Change this to your desired color */
-}

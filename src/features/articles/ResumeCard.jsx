@@ -19,7 +19,7 @@ export default function ResumeCard() {
   return (
     <div
       id="about"
-      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]   "
+      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)] "
     >
       <Title
         icon={<ImProfile />}

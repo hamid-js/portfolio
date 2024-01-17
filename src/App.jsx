@@ -1,3 +1,6 @@
+
+import { useState } from 'react';
+
 import Navbar from './features/nav/Navbar';
 import HeaderCard from './features/articles/HiroCard';
 import ResumeCard from './features/articles/ResumeCard';
@@ -5,7 +8,6 @@ import Testomonials from './features/articles/Testomonials';
 import Skills from './features/skills/Skills';
 import Works from './features/works/Works';
 import Footer from './features/footer/Footer';
-import { useState } from 'react';
 import Terminal from './features/terminal/Terminal';
 import MouseFollower from './features/ui/MouseFollower';
 
@@ -21,7 +23,7 @@ function App() {
   //
   return (
     <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  z-[9999] ">
-    <MouseFollower />
+    {/* <MouseFollower /> */}
       <nav>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
@@ -62,6 +64,8 @@ function App() {
           >
             <Terminal />
           </div>
+
+          
 
           <div
             className={`  ${sections}  ${

@@ -4,11 +4,9 @@ import Typewriter from '../ui/Typewriter';
 const Terminal = () => {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState([]);
-  const inputRef = useRef(null);
 
   useEffect(() => {
     // Automatically focus on the input when the component mounts
-    inputRef.current.focus();
   }, []);
   `help: list all commands
   about :  about me
@@ -88,14 +86,16 @@ const Terminal = () => {
     You can reach me at:`;
 
   return (
-    <div className="xl:p-auto lg:w-6/6 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] ">
+    <div
+      id="terminal"
+      className="lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] "
+    >
       <div className="w-4/4 m-auto pb-5  xl:text-xl ">
         <span className="ml-3 text-[var(--secondary-color-600)]">
-          {' '}
           Hi, I'm Hamid Mohamadi
         </span>
         <div>
-          <Typewriter text={text} maxWidth={1000} wordDelay={50} />
+          <Typewriter text={text} maxWidth={400} wordDelay={50} />
         </div>
         <div className="my-5 flex gap-4 text-purple-400">
           <a href="">Email</a>
@@ -116,7 +116,6 @@ const Terminal = () => {
         <div>
           <span className="text-green-500">{'~/hamid-mohamadi>'}</span>
           <input
-            ref={inputRef}
             type="text"
             value={input}
             onChange={handleInputChange}

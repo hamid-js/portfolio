@@ -1,6 +1,7 @@
 import { ImBubble2, ImProfile, ImStarFull, ImTerminal } from 'react-icons/im';
 
 export default function Menu({ showActiveComponent }) {
+
   const scrollToSection = (e, sectionId) => {
     e.preventDefault();
     showActiveComponent(sectionId);
@@ -10,8 +11,13 @@ export default function Menu({ showActiveComponent }) {
         top: section.offsetTop,
         behavior: 'smooth',
       });
+
     }
   };
+ 
+
+
+
   const items =
     'flex flex-col items-center justify-center md:gap-y-1 md:border-b md:pb-3  md:last:border-b-0 md:border-slate-700 cursor-pointer';
   return (
@@ -35,6 +41,12 @@ export default function Menu({ showActiveComponent }) {
           </span>
           <a> Projects</a>
         </li>
+        <li onClick={(e) => scrollToSection(e, 'terminal')} className={items}>
+          <span>
+            <ImTerminal />
+          </span>
+          <a> Terminal</a>
+        </li>
 
         <li onClick={(e) => scrollToSection(e, 'contact')} className={items}>
           <span>
@@ -43,12 +55,7 @@ export default function Menu({ showActiveComponent }) {
           <a> Contact</a>
         </li>
 
-        <li onClick={(e) => scrollToSection(e, 'terminal')} className={items}>
-          <span>
-            <ImTerminal />
-          </span>
-          <a> Terminal</a>
-        </li>
+      
       </ul>
     </div>
   );

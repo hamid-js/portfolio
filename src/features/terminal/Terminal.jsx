@@ -84,7 +84,7 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] "
+      className=" lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] sm:my-20 md:m-0 "
     >
       <div className="w-4/4  m-auto pb-5  xl:text-xl ">
         <span className=" text-[var(--secondary-color-600)]">

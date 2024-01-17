@@ -8,11 +8,6 @@ const Terminal = () => {
   useEffect(() => {
     // Automatically focus on the input when the component mounts
   }, []);
-  `help: list all commands
-  about :  about me
-  skills : list my skills
-  contact :  contact me
-  clear :  clear the terminal`;
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
@@ -51,11 +46,13 @@ const Terminal = () => {
       Development tools: Git and GitHub, NPM, Visual Studio Code, Vite
       Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
       contact: (
-        <div className="my-10 flex gap-4 text-[var(--secondary-color-600)]">
-          <a href="">Email</a>
-          <a href="">Telegram</a>
-          <a href="">LinkedIn</a>
-          <a href="">GitHub</a>
+        <div className="my-10 flex gap-4  text-purple-400">
+          <a href="mailto: hamid.reactjs@gmail.com">Email</a>
+          <a href="https://t.me/hamid_develop">Telegram</a>
+          <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">
+            LinkedIn
+          </a>
+          <a href="https://github.com/hamid-js">GitHub</a>
         </div>
       ),
       clear: '',
@@ -98,10 +95,12 @@ const Terminal = () => {
         <Typewriter text={text} maxWidth={400} wordDelay={50} />
         <div></div>
         <div className="my-5 flex gap-4 text-purple-400">
-          <a href="">Email</a>
-          <a href="">Telegram</a>
-          <a href="">LinkedIn</a>
-          <a href="">GitHub</a>
+        <a href="mailto: hamid.reactjs@gmail.com">Email</a>
+          <a href="https://t.me/hamid_develop">Telegram</a>
+          <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">
+            LinkedIn
+          </a>
+          <a href="https://github.com/hamid-js">GitHub</a>
         </div>
       </div>
       <div className="max-w-md text-wrap">

@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 :root {
- /* slate */
+  /* slate */
   --primary-color-900: #0f172a; /* 900  */
   --primary-color-800: #1e293b; /* 800 */
   --primary-color-700: #334155; /* 700 */
   --primary-color-600: #475569; /* 600 */
   --primary-color-300: #cbd5e1; /* 600 */
 
-  
   /* green */
   --secondary-color-300: #86efac; /* 300  */
   --secondary-color-400: #4ade80; /* 400 */
@@ -19,9 +18,7 @@
 
   --color-black: black; /*   */
   --color-white: white; /*   */
-  --color-gray: #9ca3af
-  ; /*   */
-  
+  --color-gray: #9ca3af; /*   */
 }
 body {
   background-image: url(/assets/img-7.jpg);
@@ -37,12 +34,14 @@ h5,
 h6 {
   color: #fff;
 }
+
+/* .my-clip-path */
 .my-clip-path {
   clip-path: polygon(0 0, 100% 0, 100% 60%, 80% 100%, 21% 100%, 0 70%);
 }
+/* .my-clip-path */
 
-
-
+/* slideIn pages animation */
 @media screen and (min-width: 1024px) {
   .animated-element {
     display: none;
@@ -61,8 +60,9 @@ h6 {
     }
   }
 }
-/* //////////////// */
+/* slideIn pages animation */
 
+/* typewriter */
 .typewriter-container {
   overflow: hidden;
 }
@@ -81,6 +81,9 @@ h6 {
   to {
     border-right-color: transparent;
   }
+  /* typewriter */
+
+  /* mouse effect*/
 }
 .mouse-follower-container {
   position: fixed;
@@ -88,7 +91,6 @@ h6 {
   height: 100vh;
   pointer-events: none;
   z-index: 9999;
-
 }
 
 .mouse {
@@ -97,11 +99,10 @@ h6 {
   transform: translate(-50%, -50%);
 }
 
-
 .mouse.pointer {
   background-color: rgba(255, 166, 0, 0.144);
   transition: 3s;
-
 }
 
+/* mouse effect*/
 

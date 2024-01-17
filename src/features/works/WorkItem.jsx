@@ -3,12 +3,13 @@ import MiniSkill from '../ui/MiniSkill';
 import Title from '../ui/Title';
 
 export default function WorkItem() {
+  const hover = 'cursor-pointer hover:text-[var(--secondary-color-500)] duration-500 hover:scale-125'
   return (
     <>
       <div className=" mb-10 flex flex-col items-center justify-evenly gap-4 rounded-2xl bg-[var(--primary-color-700)] p-7 xl:mx-auto xl:w-5/6  ">
         <Title firstPart="car " secondPart="wash" heading={'lg'} />
         <img
-          className=" rounded-lg lg:mx-auto lg:w-4/6  "
+          className=" rounded-lg lg:mx-auto lg:w-4/6   "
           src="/assets/img-8.jpg"
           alt=""
         />
@@ -27,19 +28,19 @@ export default function WorkItem() {
           for searching, comparing, and reserving cars.
         </p>
         <div>
-          <MiniSkill text="react" />
+          <MiniSkill  text="react" />
           <MiniSkill text="scss" />
         </div>
 
         <div className="mt-10  flex w-full items-center justify-around gap-12  text-2xl capitalize xl:text-2xl ">
-          <a className="" href="#">
-            <span className="cursor-pointer hover:text-[var(--secondary-color-500)]">
-              Code <ImGithub className="mb-1 inline" />
+          <a className={hover} href="#">
+            <span >
+              Code <ImGithub className="mb-1 inline " />
             </span>
           </a>
-          <a className="" href="#">
-            <span className="cursor-pointer hover:text-[var(--secondary-color-500)]">
-              Live Demo <ImPlay2 className="mb-1 inline" />
+          <a className={hover} href="#">
+            <span>
+              Live Demo <ImPlay2 className="mb-1 inline  hover:scale-125" />
             </span>
           </a>
         </div>

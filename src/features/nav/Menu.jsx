@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import { ImBubble2, ImProfile, ImStarFull, ImTerminal } from 'react-icons/im';
 
 export default function Menu({ showActiveComponent }) {
+  const [actice, setActive] = useState(false);
+
   const scrollToSection = (e, sectionId) => {
     e.preventDefault();
     showActiveComponent(sectionId);
@@ -10,6 +13,7 @@ export default function Menu({ showActiveComponent }) {
         top: section.offsetTop,
         behavior: 'smooth',
       });
+      setActive()
     }
   };
 

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 import Navbar from './features/nav/Navbar';
@@ -22,8 +21,8 @@ function App() {
   const open = '  lg:!block   lg:!opacity-100 animated-element  ';
   //
   return (
-    <div className="flex-col text-stone-200  md:ml-7 md:flex  md:flex-row  md:items-start md:justify-center md:gap-20  lg:gap-0  lg:overflow-hidden  z-[9999] ">
-    {/* <MouseFollower /> */}
+    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden ">
+      {/* <MouseFollower /> */}
       <nav>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
@@ -33,7 +32,7 @@ function App() {
           <HeaderCard />
         </div>
 
-        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:min-w-80 xl:mr-20 xl:max-h-[28rem] xl:mt-20 ">
+        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-20 xl:mt-20 xl:max-h-[28rem] xl:min-w-80 ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''
@@ -64,8 +63,6 @@ function App() {
           >
             <Terminal />
           </div>
-
-          
 
           <div
             className={`  ${sections}  ${

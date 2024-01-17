@@ -4,7 +4,7 @@ import { ImBubble2 } from 'react-icons/im';
 import { SiMinutemailer } from 'react-icons/si';
 
 export default function Contact() {
-  const inputStyle =
+  const inputStyle = 
     'bg-inherit border-b  border-slate-500 outline-none focus:border-b-[var(--secondary-color-500)] focus:border-b-2 transition-all focus-within:placeholder:text-white w-full';
   return (
     <div id='contact' className="bg-inherit lg:p-7 " >

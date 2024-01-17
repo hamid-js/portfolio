@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div
       id="resume"
-      className="mb-12 flex flex-col items-start justify-evenly bg-[var(--primary-color-800)]  px-5  pb-12 lg:mb-0   "
+      className="mb-5 flex flex-col items-start justify-evenly bg-[var(--primary-color-800)]  px-5  pb-12 lg:mb-0   "
     >
       <Title
         icon={<ImStatsBars2 />}

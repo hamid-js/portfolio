@@ -18,7 +18,7 @@ export default function HiroCard() {
         muted
         playsInline
         preload="auto"
-        className="my-clip-path h-72 w-full object-cover  md:h-70 md:rounded-t-lg xl:h-44  "
+        className="my-clip-path h-72 w-full object-cover  md:h-70 md:rounded-t-lg lg:h-52  xl:h-44  "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -34,8 +34,8 @@ export default function HiroCard() {
       <h2 className="text-l font-serif  capitalize text-[var(--secondary-color-400)]">
         Front-End Devloper
       </h2>
-      <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-2xl ">
-        <a
+      <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-2xl  ">
+        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.instagram.com/hamid_develop_"
@@ -43,28 +43,28 @@ export default function HiroCard() {
           <ImInstagram />
         </a>
 
-        <a
+        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/hamid-js"
         >
           <ImGithub />
         </a>
-        <a
+        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
           target="_blank"
           rel="noopener noreferrer"
           href="mailto: hamid.reactjs@gmail.com"
         >
           <ImMail />
         </a>
-        <a
+        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
           target="_blank"
           rel="noopener noreferrer"
           href="https://t.me/hamid_develop"
         >
           <ImTelegram />
         </a>
-        <a
+        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
@@ -74,7 +74,7 @@ export default function HiroCard() {
       </div>
       <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)]">
         <a
-          className="p-4"
+          className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110"
           href="/assets/cv-hamid-mohammadi.pdf"
           download="cv-hamid-mohammadi.pdf"
         >
@@ -88,7 +88,7 @@ export default function HiroCard() {
         </a>
 
         <span className="h-20 border-r-[1px] border-[var(--primary-color-700)] "></span>
-        <a className="p-4" href="tel:09371355148">
+        <a className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110" href="tel:09371355148">
           <div className="flex items-center justify-center gap-2">
             <span> contact me</span>
 

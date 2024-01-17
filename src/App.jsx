@@ -21,18 +21,18 @@ function App() {
   const open = '  lg:!block   lg:!opacity-100 animated-element  ';
   //
   return (
-    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden ">
+    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden  ">
       {/* <MouseFollower /> */}
       <nav>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
 
       <main className="    md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-[var(--secondary-color-500)] lg:m-0 lg:mr-9 lg:flex lg:w-full lg:items-start lg:justify-between lg:gap-5 lg:shadow-none ">
-        <div className=" lg:max-h-[43rem] lg:min-w-[24rem] xl:mt-10 xl:max-h-[33rem] xl:min-w-[30rem] ">
+        <div className=" lg:max-h-[40rem] lg:min-w-[28rem] xl:mt-10 xl:max-h-[33rem] xl:min-w-[30rem] ">
           <HeaderCard />
         </div>
 
-        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10 xl:mt-20 xl:max-h-[28rem] xl:min-w-80 ">
+        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10 xl:mt-20 xl:max-h-[28rem] xl:min-w-80  2xl:xl:mr-[25rem] ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''

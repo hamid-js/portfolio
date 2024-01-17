@@ -1,5 +1,4 @@
-import Contact  from './Contact';
-
+import Contact from './Contact';
 
 import {
   SiReact,
@@ -14,20 +13,28 @@ import {
 
 export default function Footer() {
   return (
-    <footer id='contact' className=" py-24 rounded-lg bg-[var(--primary-color-700)]">
-      <div className="flex flex-wrap items-center justify-center gap-10 p-10 text-6xl text-[var(--secondary-color-300)]">
-        <SiReact />
-        <SiJavascript />
-        <SiCss3 />
-        <SiHtml5 />
+    <>
+      <footer
+       
+        className=" rounded-lg bg-[var(--primary-color-700)] py-24"
+      >
+        <div className="flex flex-wrap items-center justify-center gap-10 p-10 text-6xl text-[var(--secondary-color-300)]">
+          <SiReact />
+          <SiJavascript />
+          <SiCss3 />
+          <SiHtml5 />
 
-        <SiGithub />
+          <SiGithub />
 
-        <SiCodecademy />
-        <SiVisualstudiocode />
-        <SiSass />
+          <SiCodecademy />
+          <SiVisualstudiocode />
+          <SiSass />
+        </div>
+        <Contact />
+      </footer>
+      <div className="capitalize mt-[-1rem] text-[--secondary-color-600] text-center py-3 w-full rounded-sm bg-[--primary-color-900]">
+        created by Hamid Mohamadi &copy;
       </div>
-      <Contact />
-    </footer>
+    </>
   );
 }

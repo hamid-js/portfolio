@@ -84,7 +84,7 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6 xl:p-auto h-full w-full overflow-hidden rounded-md bg-[--color-black] p-10 text-[--primary-color-300] shadow-md 2xl:min-w-[50rem] my-16 md:m-0 "
+      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 lg:p-10 text-[--primary-color-300] shadow-md md:m-0 2xl:min-w-[50rem] "
     >
       <div className="w-4/4  m-auto pb-5  xl:text-xl ">
         <span className=" text-[var(--secondary-color-600)]">
@@ -95,7 +95,7 @@ const Terminal = () => {
         <Typewriter text={text} maxWidth={400} wordDelay={50} />
         <div></div>
         <div className="my-5 flex gap-4 text-purple-400">
-        <a href="mailto: hamid.reactjs@gmail.com">Email</a>
+          <a href="mailto: hamid.reactjs@gmail.com">Email</a>
           <a href="https://t.me/hamid_develop">Telegram</a>
           <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">
             LinkedIn

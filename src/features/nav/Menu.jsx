@@ -26,7 +26,9 @@ export default function Menu({ showActiveComponent }) {
         <li
           onClick={(e) => scrollToSection(e, 'about')}
           className={`${items} ${
-            active === 'about' ? 'scale-125 font-bold' : ''
+            active === 'about'
+              ? 'scale-125 font-bold text-[--secondary-color-500]'
+              : ''
           } `}
         >
           <span>
@@ -37,7 +39,9 @@ export default function Menu({ showActiveComponent }) {
         <li
           onClick={(e) => scrollToSection(e, 'resume')}
           className={`${items} ${
-            active === 'resume' ? 'scale-125 font-bold' : ''
+            active === 'resume'
+              ? 'scale-125 font-bold text-[--secondary-color-500]'
+              : ''
           } `}
         >
           <span>
@@ -48,7 +52,9 @@ export default function Menu({ showActiveComponent }) {
         <li
           onClick={(e) => scrollToSection(e, 'projects')}
           className={`${items} ${
-            active === 'projects' ? 'scale-125 font-bold' : ''
+            active === 'projects'
+              ? 'scale-125 font-bold text-[--secondary-color-500]'
+              : ''
           } `}
         >
           <span>
@@ -59,7 +65,9 @@ export default function Menu({ showActiveComponent }) {
         <li
           onClick={(e) => scrollToSection(e, 'terminal')}
           className={`${items} ${
-            active === 'terminal' ? 'scale-125 font-bold' : ''
+            active === 'terminal'
+              ? 'scale-125 font-bold text-[--secondary-color-500]'
+              : ''
           } `}
         >
           <span>
@@ -71,7 +79,9 @@ export default function Menu({ showActiveComponent }) {
         <li
           onClick={(e) => scrollToSection(e, 'contact')}
           className={`${items} ${
-            active === 'contact' ? 'scale-125 font-bold' : ''
+            active === 'contact'
+              ? 'scale-125 font-bold text-[--secondary-color-500]'
+              : ''
           } `}
         >
           <span>

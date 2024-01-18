@@ -22,10 +22,10 @@ function App() {
   const open = '  lg:!block   lg:!opacity-100 animated-element  ';
   //
   return (
-    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden  ">
+    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden   ">
 <MatrixBackground />
       {/* <MouseFollower /> */}
-      <nav>
+      <nav className='xl:ml-32'>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
 

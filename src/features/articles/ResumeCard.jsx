@@ -40,7 +40,7 @@ export default function ResumeCard() {
 
       <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-8 ">
         <div className="font-extralightligh  pb-12 text-lg  md:text-xl ">
-          <Typewriter text={text} maxWidth={250} wordDelay={50} />
+          <Typewriter text={text} wordDelay={50} />
         </div>
         <Title
           icon={<ImMagicWand />}

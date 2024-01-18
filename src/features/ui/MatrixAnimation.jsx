@@ -37,6 +37,7 @@ const MatrixBackground = () => {
     pointerEvents: 'none',
     zIndex: '-2',
     opacity: "0.4",
+    width: "100%"
 
   };
 

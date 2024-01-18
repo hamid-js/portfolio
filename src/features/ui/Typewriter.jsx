@@ -27,7 +27,7 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
 
   return (
     <div
-      className={`typewriter-container max-w-72 xl:max-w-md  `}
+      className={`typewriter-container max-w-72  `}
      
     >
       <p className="typewriter-text">{animatedText}</p>

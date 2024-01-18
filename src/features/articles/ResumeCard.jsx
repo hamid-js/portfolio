@@ -38,7 +38,7 @@ export default function ResumeCard() {
 
       />
 
-      <div className="px-7 text-[var(--color-gray)] lg:px-10 xl:px-8 ">
+      <div className="px-7 text-[--primary-color-300]lg:px-10 xl:px-8 ">
         <div className="font-extralightligh  pb-12 text-lg  md:text-xl ">
           <Typewriter text={text} wordDelay={50} />
         </div>
@@ -50,7 +50,7 @@ export default function ResumeCard() {
 
         />
 
-        <p className="font-extralightligh  pb-12 text-lg  md:text-xl mt-5">
+        <p className="font-extralightligh  text-[--primary-color-300] pb-12 text-lg  md:text-xl mt-5">
           troubleshooting, licensing, and updating hardware and software assets.
           A system administrator, or sysadmin, Data scientist, Systems engineer
           from USA, California. I have rich experience in managing,

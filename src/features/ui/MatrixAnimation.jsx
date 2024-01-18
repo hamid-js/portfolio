@@ -30,18 +30,9 @@ const MatrixBackground = () => {
     return () => clearInterval(animationId);
   }, []); // Empty dependency array ensures useEffect runs only once
 
-  const canvasStyle = {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    pointerEvents: 'none',
-    zIndex: '-2',
-    opacity: "0.4",
-    width: "100%"
+ 
 
-  };
-
-  return <canvas ref={canvasRef} style={canvasStyle} />;
+  return <canvas ref={canvasRef} className=' fixed top-0 left-0 pointer-events-none z-[-2] opacity-40 w-full h-[150%] active:z-10  ' />;
 };
 
 export default MatrixBackground;

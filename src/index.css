@@ -16,14 +16,21 @@
   --secondary-color-500: #22c55e; /* 500 */
   --secondary-color-600: #16a34a; /* 600  */
 
-  --color-black: black; /*   */
-  --color-white: white; /*   */
-  --color-gray: #9ca3af; /*   */
+  --color-black: black; 
+  --color-white: white; 
+  --color-gray: #9ca3af; 
+  --color-stone: #f5f5f4; 
+  
 }
+.fff{
+  color:#0a0a0a;}
 body {
   background-image: url(/assets/img-7.jpg);
+ 
   overflow-x: hidden;
   box-sizing: border-box;
+  
+ 
 }
 h1,
 h2,
@@ -32,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: var(--color-white);
 }
 
 /* .my-clip-path */
@@ -47,6 +54,7 @@ h6 {
     display: none;
     transform: translateX(-100%);
     animation: slideIn 1.5s ease-in-out forwards;
+    
   }
 
   @keyframes slideIn {

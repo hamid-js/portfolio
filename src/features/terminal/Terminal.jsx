@@ -47,12 +47,12 @@ const Terminal = () => {
       Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
       contact: (
         <div className="my-10 flex gap-4  text-purple-400">
-          <a href="mailto: hamid.reactjs@gmail.com">Email</a>
-          <a href="https://t.me/hamid_develop">Telegram</a>
-          <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">
+          <a href="mailto: hamid.reactjs@gmail.com" target='blank'>Email</a>
+          <a href="https://t.me/hamid_develop"  target='blank'>Telegram</a>
+          <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"  target='blank'>
             LinkedIn
           </a>
-          <a href="https://github.com/hamid-js">GitHub</a>
+          <a  target='blank' href="https://github.com/hamid-js">GitHub</a>
         </div>
       ),
       clear: '',
@@ -87,14 +87,14 @@ const Terminal = () => {
       className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 lg:p-10 text-[--primary-color-300] shadow-md md:m-0 2xl:min-w-[50rem] "
     >
       <div className="w-4/4  m-auto pb-5  xl:text-xl ">
-        <span className=" text-[var(--secondary-color-600)]">
-          Hi, I'm Hamid Mohamadi
+        <span className=" font-bold text-[var(--secondary-color-500)]">
+          {"Hi, I'm Hamid Mohamadi "} 
         </span>
-        a passionate web developer and skilled programmer fluent in Persian and
+         a passionate web developer and skilled programmer fluent in Persian and
         English.
         <Typewriter text={text} maxWidth={400} wordDelay={50} />
         <div></div>
-        <div className="my-5 flex gap-4 text-purple-400">
+        <div className="my-5 flex gap-4 font-bold text-[var(--secondary-color-500)]">
           <a href="mailto: hamid.reactjs@gmail.com">Email</a>
           <a href="https://t.me/hamid_develop">Telegram</a>
           <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">
@@ -106,14 +106,14 @@ const Terminal = () => {
       <div className="max-w-md text-wrap">
         {output.map((entry, index) => (
           <div className="mt-5" key={index}>
-            <span className="my-9 text-green-600 ">{`~/hamid-mohamadi>`} </span>
+            <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">{`~/hamid-mohamadi>`} </span>
             {entry.command}
             <br />
             {entry.response && <span>{entry.response}</span>}
           </div>
         ))}
         <div>
-          <span className="text-green-500">{'~/hamid-mohamadi>'}</span>
+          <span className="font-bold text-[var(--secondary-color-500)]">{'~/hamid-mohamadi>'}</span>
           <input
             type="text"
             value={input}

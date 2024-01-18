@@ -8,7 +8,6 @@ import Skills from './features/skills/Skills';
 import Works from './features/works/Works';
 import Footer from './features/footer/Footer';
 import Terminal from './features/terminal/Terminal';
-import MouseFollower from './features/ui/MouseFollower';
 import MatrixBackground from './features/ui/MatrixAnimation';
 
 function App() {
@@ -22,10 +21,10 @@ function App() {
   const open = '  lg:!block   lg:!opacity-100 animated-element  ';
   //
   return (
-    <div className="z-[9999] flex-col  text-stone-200 md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden   ">
+    <div className="z-[9999] flex-col  text-[--color-stone] md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden   ">
 <MatrixBackground />
-      {/* <MouseFollower /> */}
-      <nav className='xl:ml-32'>
+      {/* <ParticleMover /> */}
+      <nav className='xl:ml-16'>
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
 
@@ -34,7 +33,7 @@ function App() {
           <HeaderCard />
         </div>
 
-        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-scroll lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10 xl:mt-20 xl:max-h-[28rem] xl:min-w-80  2xl:xl:mr-[25rem] ">
+        <section className="lg:my-7 lg:max-h-[35rem] lg:min-w-[25rem] lg:overflow-y-auto lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10 xl:mt-20 xl:max-h-[28rem] xl:min-w-80  2xl:xl:mr-[25rem] ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''
@@ -52,8 +51,8 @@ function App() {
           </div>
           <div
             className={` ${sections} ${
-              activeComponent === 'projects' ? open : ''
-            } `}
+              activeComponent === 'projects' ? open   : ''
+            }  `}
           >
             <Works />
           </div>

@@ -9,7 +9,7 @@ export default function SkillItem({
     <div>
       <span className="font-serif capitalize ">{title}</span>
       <div className="mb-2 flex items-center  justify-start gap-4">
-        <div className="my-2 h-2 w-5/6 overflow-hidden  border">
+        <div className="my-2 h-2 w-5/6 overflow-hidden  border border-[--color-white]">
           <div
             className={`w-5/5 h-full bg-[var(--secondary-color-500)] transition-all ${className}`}
           ></div>

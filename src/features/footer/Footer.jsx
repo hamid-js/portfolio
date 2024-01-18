@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
         <Contact />
       </footer>
-      <div className="capitalize mt-[-1rem] text-[--secondary-color-600] text-center py-3 w-full rounded-sm bg-[--primary-color-900]">
+      <div className="capitalize mt-[-1rem] text-[--secondary-color-500] text-center py-3 w-full font-semibold rounded-sm bg-[--primary-color-900]">
         created by Hamid Mohamadi &copy;
       </div>
     </>

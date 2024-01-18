@@ -12,7 +12,7 @@ export default function Testomonials() {
       </span>
 
       <div className="flex flex-col items-center justify-center px-7 ">
-        <div className="relative text-[var(--color-gray)] before:absolute before:left-[-10px] before:top-0 before:text-7xl before:content-['\201C'] after:absolute  after:right-0 after:top-52  after:text-7xl after:content-['\201D'] ">
+        <div className="relative text-[var(--primary-color-300)] before:absolute before:left-[-10px] before:top-0 before:text-7xl before:content-['\201C'] after:absolute  after:right-0 after:top-52  after:text-7xl after:content-['\201D'] ">
           <p className=" font-extralightligh text-wrap px-10 pb-7 pt-4 text-lg  ">
             A system administrator, or sysadmin, Data scientist, Systems
             engineer from USA, California.I have rich experience in managing
@@ -36,7 +36,7 @@ export default function Testomonials() {
           </button>
         </div>
         <span className="mt-5 font-medium capitalize">Helen Floyd</span>
-        <span className="text-sm text-gray-400"> Art Director </span>
+        <span className="text-sm --primary-color-300"> Art Director </span>
         <ul className="mt-7 flex">
           <li className="mx-2 h-3 w-3  cursor-pointer rounded-full bg-[--color-white] active:bg-[var(--secondary-color-500)]"></li>
           <li className="mx-2 h-3 w-3 cursor-pointer rounded-full bg-[var(--secondary-color-500)] active:bg-[var(--secondary-color-500)]"></li>

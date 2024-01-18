@@ -30,7 +30,7 @@ const Typewriter = ({ text, maxWidth, wordDelay }) => {
       className={`typewriter-container max-w-72  `}
      
     >
-      <p className="typewriter-text">{animatedText}</p>
+      <p className="typewriter-text text-[--primary-color-300]">{animatedText}</p>
     </div>
   );
 };

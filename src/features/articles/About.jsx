@@ -9,13 +9,11 @@ engineer from USA, California.
  in managing,troubleshooting,
   licensing, and updating
  hardware and software assets. 
- engineer A system administrator,
- or sysadmin,
+ engineer A system administrator,sysadmin,
   Data scientist, Systems engineer from USA,
    California. I have rich experience
     in managing,troubleshooting,licensing, 
  and updating  hardware and software assets.
-
 `;
 export default function About() {
   return (
@@ -37,7 +35,7 @@ export default function About() {
       />
 
       <div className="text-[--primary-color-300]lg:px-10 px-7 xl:px-8  ">
-        <div className="font-extralightligh  relative mb-60  pb-12 text-lg  md:text-xl xl:text-lg 2xl:mb-96 2xl:text-2xl 2xl:leading-relaxed  ">
+        <div className="font-extralightligh  relative mb-60  pb-12 text-lg  md:text-xl xl:text-lg 2xl:mb-[32rem] 2xl:text-2xl 2xl:leading-relaxed  ">
           <Typewriter text={text} wordDelay={30} />
         </div>
 

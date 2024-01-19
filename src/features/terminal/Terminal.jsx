@@ -104,7 +104,7 @@ const Terminal = () => {
           {"Hi, I'm Hamid Mohamadi "}
         </span>
 
-        <div className="relative mb-60">
+        <div className="relative 2xl:mb-96">
           <Typewriter text={text} maxWidth={400} wordDelay={50} />
         </div>
         <div className="mt-10 flex gap-4 font-bold text-[var(--secondary-color-500)]">

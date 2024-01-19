@@ -73,9 +73,10 @@ const Terminal = () => {
     setInput('');
   };
 
-  const text = ` 
-  Currently,I work as a freelancer,
-   creating user-friendly
+  const text = `
+  a passionate web developer and skilled programmer 
+  fluent in Persian and English. 
+  Currently,I work as a freelancer,creating user-friendly
   and optimal websites and web apps.
   Also, I'm open to remote 
   and in-person positions. 
@@ -90,11 +91,11 @@ const Terminal = () => {
         <span className=" font-bold text-[var(--secondary-color-500)]">
           {"Hi, I'm Hamid Mohamadi "} 
         </span>
-         a passionate web developer and skilled programmer fluent in Persian and
-        English.
+        
+        <div className='relative mb-60'>
         <Typewriter text={text} maxWidth={400} wordDelay={50} />
-        <div></div>
-        <div className="my-5 flex gap-4 font-bold text-[var(--secondary-color-500)]">
+        </div>
+        <div className="mt-10 flex gap-4 font-bold text-[var(--secondary-color-500)]">
           <a href="mailto: hamid.reactjs@gmail.com">Email</a>
           <a href="https://t.me/hamid_develop">Telegram</a>
           <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/">

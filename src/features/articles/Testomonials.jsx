@@ -5,7 +5,7 @@ export default function Testomonials() {
   return (
     <div className=" my-5 flex flex-col items-start justify-evenly gap-8  rounded-lg bg-[var(--primary-color-800)] pb-20    ">
 
-      <Title firstPart='Testo' secondPart='monials'  className=' 2xl:text-4xl p-5' />
+      <Title firstPart='Testo' secondPart='monials' className=' 2xl:text-4xl p-5'  />
 
       <div className="flex flex-col items-center justify-center px-7 ">
         <div className="relative text-[var(--primary-color-300)] before:absolute before:left-[-10px] before:top-0 before:text-7xl before:content-['\201C'] after:absolute  after:right-0 after:top-52  after:text-7xl after:content-['\201D'] ">

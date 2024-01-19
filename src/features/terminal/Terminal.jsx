@@ -47,12 +47,21 @@ const Terminal = () => {
       Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
       contact: (
         <div className="my-10 flex gap-4  text-purple-400">
-          <a href="mailto: hamid.reactjs@gmail.com" target='blank'>Email</a>
-          <a href="https://t.me/hamid_develop"  target='blank'>Telegram</a>
-          <a href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"  target='blank'>
+          <a href="mailto: hamid.reactjs@gmail.com" target="blank">
+            Email
+          </a>
+          <a href="https://t.me/hamid_develop" target="blank">
+            Telegram
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
+            target="blank"
+          >
             LinkedIn
           </a>
-          <a  target='blank' href="https://github.com/hamid-js">GitHub</a>
+          <a target="blank" href="https://github.com/hamid-js">
+            GitHub
+          </a>
         </div>
       ),
       clear: '',
@@ -60,8 +69,9 @@ const Terminal = () => {
 
     // Check if the input command exists, otherwise show an error
     const response = commands[input.toLowerCase()] || (
-      <span className="text-xl text-red-700">
-        {`Command '${input}' not found. Type "help" for available commands.`}
+      <span className="text-sm  text-red-700">
+        Command <span className="font-bold">'{input}'</span> not found. Type
+        <span className="font-bold"> 'help' </span> for available commands.
       </span>
     );
 
@@ -85,15 +95,15 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 lg:p-10 text-[--primary-color-300] shadow-md md:m-0 2xl:min-w-[42rem] 2xl:py-32   "
+      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 text-[--primary-color-300] shadow-md md:m-0 lg:p-10 2xl:min-w-[42rem] 2xl:py-32   "
     >
       <div className="w-4/4  m-auto pb-5  xl:text-xl 2xl:text-2xl  ">
         <span className=" font-bold text-[var(--secondary-color-500)]">
-          {"Hi, I'm Hamid Mohamadi "} 
+          {"Hi, I'm Hamid Mohamadi "}
         </span>
-        
-        <div className='relative mb-60'>
-        <Typewriter text={text} maxWidth={400} wordDelay={50} />
+
+        <div className="relative mb-60">
+          <Typewriter text={text} maxWidth={400} wordDelay={50} />
         </div>
         <div className="mt-10 flex gap-4 font-bold text-[var(--secondary-color-500)]">
           <a href="mailto: hamid.reactjs@gmail.com">Email</a>
@@ -107,14 +117,18 @@ const Terminal = () => {
       <div className="max-w-md text-wrap 2xl:text-2xl  ">
         {output.map((entry, index) => (
           <div className="mt-5" key={index}>
-            <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">{`~/hamid-mohamadi>`} </span>
+            <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">
+              {`~/hamid-mohamadi>`}{' '}
+            </span>
             {entry.command}
             <br />
             {entry.response && <span>{entry.response}</span>}
           </div>
         ))}
         <div>
-          <span className="font-bold text-[var(--secondary-color-500)]">{'~/hamid-mohamadi>'}</span>
+          <span className="font-bold text-[var(--secondary-color-500)]">
+            {'~/hamid-mohamadi>'}
+          </span>
           <input
             type="text"
             value={input}

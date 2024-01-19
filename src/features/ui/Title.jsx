@@ -6,7 +6,7 @@ export default function Title({
 }) {
   return (
     <h3
-      className={`ml-3 flex  w-full items-center gap-5 border-b border-slate-700  p-3 font-serif capitalize  tracking-widest  ${className} `}
+      className={`ml-3 flex  w-5/6 items-center gap-5 border-b border-slate-700  p-3 font-serif capitalize  tracking-widest  ${className} `}
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>

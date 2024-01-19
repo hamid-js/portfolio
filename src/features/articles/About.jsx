@@ -33,7 +33,7 @@ export default function About() {
 
       <div className="text-[--primary-color-300]lg:px-10 px-7 xl:px-8  ">
         <div className="font-extralightligh  pb-12 text-lg  md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed mb-60 2xl:mb-96 relative  ">
-          <Typewriter text={text} wordDelay={40} />
+          <Typewriter text={text} wordDelay={30} />
         </div>
 
         <Title

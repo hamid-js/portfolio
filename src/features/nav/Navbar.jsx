@@ -58,7 +58,7 @@ export default function Navbar({ showActiveComponent }) {
   }
 
   return (
-    <div className="fixed  top-0 z-20 w-full   md:fixed md:float-left md:mr-3  md:mt-5 md:flex  md:h-[28rem] md:w-14 md:flex-col  lg:static lg:h-[30rem] lg:w-16 xl:mt-16 xl:w-20  ">
+    <div className="fixed  top-0 z-20 w-full   md:fixed md:float-left md:mr-3  md:mt-5 md:flex  md:h-[28rem] md:w-14 md:flex-col  lg:static lg:h-[30rem] lg:w-16  xl:w-16  ">
       <div
         className={`h-18 flex  w-full items-center justify-between bg-[var(--primary-color-900)] px-5 py-2 md:rounded-t-lg md:shadow-md md:shadow-[var(--secondary-color-500)] ${
           !isOpenMenu && 'md:rounded-lg'

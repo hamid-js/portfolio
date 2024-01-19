@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import { ImBubble2, ImProfile, ImStarFull, ImTerminal } from 'react-icons/im';
 
+
+
+const itemsStyle =
+  ' flex flex-col items-center justify-center md:gap-y-1 md:border-b md:pb-1  md:last:border-b-0 md:border-slate-700 cursor-pointer hover:text-[--secondary-color-500] duration-500 hover:scale-125  ';
+const activeStyle =
+  'scale-125 xl:scale-110 font-bold text-[--secondary-color-500]';
+
 export default function Menu({ showActiveComponent }) {
   const [active, setActive] = useState('');
 
@@ -18,18 +25,12 @@ export default function Menu({ showActiveComponent }) {
     }
   };
 
-  const items =
-    ' flex flex-col items-center justify-center md:gap-y-1 md:border-b md:pb-1  md:last:border-b-0 md:border-slate-700 cursor-pointer hover:text-[--secondary-color-500] duration-500 hover:scale-125 {active } ';
   return (
     <div className="w-full items-center justify-center px-5  py-6 md:px-0 ">
-      <ul className="flex items-center justify-between text-sm capitalize md:flex-col md:gap-y-5  lg:gap-y-7  lg:text-[0.975rem] ">
+      <ul className="flex items-center justify-between text-sm capitalize md:flex-col md:gap-y-5  lg:gap-y-7  ">
         <li
           onClick={(e) => scrollToSection(e, 'about')}
-          className={`${items} ${
-            active === 'about'
-              ? 'scale-125 font-bold text-[--secondary-color-500]'
-              : ''
-          } `}
+          className={`${itemsStyle} ${active === 'about' ? activeStyle : ''} `}
         >
           <span>
             <ImProfile />
@@ -38,23 +39,17 @@ export default function Menu({ showActiveComponent }) {
         </li>
         <li
           onClick={(e) => scrollToSection(e, 'resume')}
-          className={`${items} ${
-            active === 'resume'
-              ? 'scale-125 font-bold text-[--secondary-color-500]'
-              : ''
-          } `}
+          className={`${itemsStyle} ${active === 'resume' ? activeStyle : ''} `}
         >
           <span>
             <ImProfile />
           </span>
-          <a className='tracking-widest'> Skills</a>
+          <a className="tracking-widest"> Skills</a>
         </li>
         <li
           onClick={(e) => scrollToSection(e, 'projects')}
-          className={`${items} ${
-            active === 'projects'
-              ? 'scale-125 font-bold text-[--secondary-color-500]'
-              : ''
+          className={`${itemsStyle} ${
+            active === 'projects' ? activeStyle : ''
           } `}
         >
           <span>
@@ -64,10 +59,8 @@ export default function Menu({ showActiveComponent }) {
         </li>
         <li
           onClick={(e) => scrollToSection(e, 'terminal')}
-          className={`${items} ${
-            active === 'terminal'
-              ? 'scale-125 font-bold text-[--secondary-color-500]'
-              : ''
+          className={`${itemsStyle} ${
+            active === 'terminal' ? activeStyle : ''
           } `}
         >
           <span>
@@ -78,10 +71,8 @@ export default function Menu({ showActiveComponent }) {
 
         <li
           onClick={(e) => scrollToSection(e, 'contact')}
-          className={`${items} ${
-            active === 'contact'
-              ? 'scale-125 font-bold text-[--secondary-color-500]'
-              : ''
+          className={`${itemsStyle} ${
+            active === 'contact' ? activeStyle : ''
           } `}
         >
           <span>

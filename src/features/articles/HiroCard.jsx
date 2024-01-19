@@ -6,19 +6,19 @@ import {
   ImLinkedin,
   ImMail,
   ImTelegram,
-  ImXing2,
 } from 'react-icons/im';
+const hoverStyle = 'hover:text-[--secondary-color-500] duration-300 hover:scale-125'
 
 export default function HiroCard() {
   return (
-    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  lg:max-h-[42rem]  xl:max-h-[32rem] ">
+    <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  ">
       <video
         autoPlay
         loop
         muted
         playsInline
         preload="auto"
-        className="my-clip-path h-72 w-full object-cover  md:h-70 md:rounded-t-lg lg:h-52  xl:h-44  "
+        className="my-clip-path h-72 w-full object-cover  md:h-70 md:rounded-t-lg lg:h-44    "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -35,7 +35,7 @@ export default function HiroCard() {
         Front-End Devloper
       </h2>
       <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-2xl  ">
-        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
+        <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.instagram.com/hamid_develop_"
@@ -43,28 +43,28 @@ export default function HiroCard() {
           <ImInstagram />
         </a>
 
-        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
+        <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/hamid-js"
         >
           <ImGithub />
         </a>
-        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
+        <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="mailto: hamid.reactjs@gmail.com"
         >
           <ImMail />
         </a>
-        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
+        <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://t.me/hamid_develop"
         >
           <ImTelegram />
         </a>
-        <a className='hover:text-[--secondary-color-500] duration-300 hover:scale-125'
+        <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"

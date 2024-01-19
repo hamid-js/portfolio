@@ -5,7 +5,7 @@ import HeaderCard from './features/articles/HiroCard';
 import ResumeCard from './features/articles/ResumeCard';
 import Testomonials from './features/articles/Testomonials';
 import Skills from './features/skills/Skills';
-import Works from './features/works/Works';
+import Works from './features/projects/Projects';
 import Footer from './features/footer/Footer';
 import Terminal from './features/terminal/Terminal';
 import MatrixBackground from './features/ui/MatrixAnimation';

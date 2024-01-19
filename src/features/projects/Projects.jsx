@@ -1,12 +1,10 @@
 import WorkItem from './WorkItem';
-import Title from '../ui/Title';
 
-import { ImStarFull } from 'react-icons/im';
 import { useState } from 'react';
 
 const tabsStyle =
   'cursor-pointer  shadow-md:shadow-[--secondary-color-500] rounded-sm py-3 text-center  shadow-sm  transition-all duration-1000 hover:text-[--secondary-color-400] xl:text-sm ';
-export default function Works() {
+export default function Projects() {
   const [showMainProjects, setShowMainProjects] = useState(true);
 
   return (

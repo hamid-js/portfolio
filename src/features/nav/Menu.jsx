@@ -47,7 +47,7 @@ export default function Menu({ showActiveComponent }) {
           <span>
             <ImProfile />
           </span>
-          <a> Resume</a>
+          <a className='tracking-widest'> Skills</a>
         </li>
         <li
           onClick={(e) => scrollToSection(e, 'projects')}

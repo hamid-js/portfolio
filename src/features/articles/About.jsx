@@ -43,7 +43,7 @@ export default function About() {
           icon={<ImMagicWand />}
           firstPart="wordpress "
           secondPart="designer "
-          className="text-lg  2xl:text-3xl"
+          className="text-lg 2xl:text-3xl"
         />
 
         <p className="font-extralightligh  mt-5 pb-12 text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed">

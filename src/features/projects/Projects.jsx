@@ -1,4 +1,4 @@
-import WorkItem from './WorkItem';
+import WorkItem from './ProjectItem';
 
 import { useState } from 'react';
 
@@ -10,13 +10,13 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  py-12  2xl:pt-[80rem] "
+      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  py-12   "
     >
      
 
-      <div className=" m-auto  bg-[var(--primary-color-800)]">
-        <div className="mx-auto  h-[32rem] max-w-[30rem]  ">
-          <div className="mb-5 flex w-full items-center justify-around bg-[--primary-color-700] px-4  text-sm uppercase tracking-widest transition-all duration-500 ">
+      <div className=" mx-auto  my-10 bg-[var(--primary-color-800)]">
+        <div className="mx-auto  h-[32rem]  ">
+          <div className="mb-5 flex w-full items-center justify-around bg-[--primary-color-700] px-4  text-sm uppercase tracking-widest transition-all duration-500   ">
             <div
               className={`${tabsStyle} ${
                 showMainProjects &&
@@ -37,13 +37,19 @@ export default function Projects() {
               mini Projects
             </div>
           </div>
-          <div className="m-auto h-full w-full overflow-y-scroll">
+          <div className="mx-auto mb-10 h-full w-11/12 rounded-lg  p-10 bg-[--primary-color-600] overflow-y-scroll ">
             {showMainProjects ? (
+              <>
               <WorkItem />
+              <WorkItem />
+              </>
             ) : (
-              <div className="h-full w-full">
-                <WorkItem />
-              </div>
+         <>
+           
+              <WorkItem />
+              <WorkItem />
+              </>
+           
             )}
           </div>
         </div>

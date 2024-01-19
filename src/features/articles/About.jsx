@@ -17,11 +17,11 @@ troubleshooting, licensing, and updating
 hardware and software assets.
 
 `;
-export default function ResumeCard() {
+export default function About() {
   return (
     <div
       id="about"
-      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)] "
+      className=" flex flex-col items-start justify-evenly gap-5  bg-[var(--primary-color-800)]  overflow-x-hidden"
     >
       <Title
         icon={<ImProfile />}
@@ -33,7 +33,7 @@ export default function ResumeCard() {
         icon={<ImMagicWand />}
         firstPart="front-end "
         secondPart="debeloper "
-         className='!text-lg'
+         className='text-lg '
         
 
       />

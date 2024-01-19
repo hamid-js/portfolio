@@ -7,13 +7,12 @@ export default function Contact() {
   const inputStyle = 
     'bg-inherit border-b  border-slate-500 outline-none focus:border-b-[var(--secondary-color-500)] focus:border-b-2 transition-all focus-within:placeholder:text-white w-full';
   return (
-    <div id='contact' className="bg-inherit lg:p-7 " >
+    <div id='contact' className="bg-inherit lg:p-4 " >
       <Title
         icon={<ImBubble2 />}
         firstPart="Contact "
         secondPart="Form"
-        border={500}
-        width="full"
+      
       />
 
       <form
@@ -27,7 +26,7 @@ export default function Contact() {
           type="textarea"
           placeholder="Your Message"
         />
-        <button className="my-4 ml-[-10px] rounded-2xl border border-dotted border-[var(--secondary-color-500)] p-3 py-2 uppercase transition-all duration-500 hover:text-[var(--secondary-color-500)] hover:animate-bounce">
+        <button className="mt-4 ml-[-10px] rounded-2xl border border-dotted border-[var(--secondary-color-500)] p-3 py-2 uppercase transition-all duration-500 hover:text-[var(--secondary-color-500)] hover:animate-bounce">
           Send Message <SiMinutemailer className="mb-1 inline text-2xl " />
         </button>
       </form>

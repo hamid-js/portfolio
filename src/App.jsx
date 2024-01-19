@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Navbar from './features/nav/Navbar';
 import HiroCard from './features/articles/HiroCard';
-import ResumeCard from './features/articles/ResumeCard';
+import About from './features/articles/About';
 import Testomonials from './features/articles/Testomonials';
 import Skills from './features/skills/Skills';
 import Projects from './features/projects/Projects';
@@ -21,7 +21,7 @@ function App() {
 
   //
   return (
-    <div className="z-[9999] flex-col  text-[--color-stone] md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  lg:overflow-hidden   ">
+    <div className="z-[9999] flex-col  text-[--color-stone] md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  overflow-x-hidden   ">
       <MatrixBackground />
       <nav className="lg:mt-10 xl:ml-16 ">
         <Navbar showActiveComponent={showActiveComponent} />
@@ -38,7 +38,7 @@ function App() {
               activeComponent === 'about' ? open : ''
             } `}
           >
-            <ResumeCard />
+            <About />
             <Testomonials />
           </div>
           <div

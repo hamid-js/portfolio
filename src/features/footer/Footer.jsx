@@ -14,11 +14,9 @@ import {
 export default function Footer() {
   return (
     <>
-      <footer
+      <footer className=" rounded-lg bg-[var(--primary-color-700)] pt-10 ">
        
-        className=" rounded-lg bg-[var(--primary-color-700)] py-24"
-      >
-        <div className="flex flex-wrap items-center justify-center gap-10 p-10 text-6xl text-[var(--secondary-color-300)]">
+        <div className="flex flex-wrap items-center justify-around gap-x-14 gap-y-4  text-5xl text-[var(--secondary-color-300)] mx-16 ">
           <SiReact />
           <SiJavascript />
           <SiCss3 />
@@ -29,12 +27,14 @@ export default function Footer() {
           <SiCodecademy />
           <SiVisualstudiocode />
           <SiSass />
-        </div>
+          </div>
+     
         <Contact />
-      </footer>
-      <div className="capitalize mt-[-1rem] text-[--secondary-color-500] text-center py-3 w-full font-semibold rounded-sm bg-[--primary-color-900]">
+      
+      <div className="mt-[-1rem] w-full rounded-sm bg-[--primary-color-900] py-3 text-center font-semibold capitalize text-[--secondary-color-500]">
         created by Hamid Mohamadi &copy;
       </div>
+      </footer>
     </>
   );
 }

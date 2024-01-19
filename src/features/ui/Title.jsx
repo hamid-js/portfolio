@@ -2,11 +2,11 @@ export default function Title({
   firstPart = 'first',
   secondPart = 'second',
   icon = '',
-  className = 'text-xl ',
+  className = 'text-2xl   ',
 }) {
   return (
     <h3
-      className={`flex w-5/6 items-center gap-5 border-b border-slate-700 p-3 font-serif  capitalize tracking-widest  md:text-2xl ${className} `}
+      className={`ml-3 flex  w-full items-center gap-5 border-b border-slate-700  p-3 font-serif capitalize  tracking-widest  ${className} `}
     >
       <span className="text-[var(--secondary-color-400)]">{icon}</span>
       <div>

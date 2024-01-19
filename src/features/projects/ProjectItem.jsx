@@ -36,14 +36,14 @@ export default function ProjectItem({
           }
         </div>
 
-        <div className=" flex w-full items-center justify-between text-lg capitalize 2xl:text-3xl  ">
-          <a className={`${hover} mx-8 py-2 `} target='blank' href={codeLink}>
+        <div className=" flex w-full items-center justify-around text-lg capitalize 2xl:text-3xl  ">
+          <a className={`${hover} py-2 `} target='blank' href={codeLink}>
             <span>
               Code <ImGithub className="mb-1 inline " />
             </span>
           </a>
 
-          <a className={`${hover}  mx-8  py-2`} target='blank' href={demoLink}>
+          <a className={`${hover}   py-2`} target='blank' href={demoLink}>
             <span>
               Live Demo <ImPlay2 className="mb-1 inline  hover:scale-125" />
             </span>

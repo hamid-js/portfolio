@@ -84,9 +84,11 @@ const Terminal = () => {
   };
 
   const text = `
-  a passionate web developer and skilled programmer 
+  a passionate web developer and 
+  skilled programmer 
   fluent in Persian and English. 
-  Currently,I work as a freelancer,creating user-friendly
+  Currently,I work as a freelancer,
+  creating user-friendly
   and optimal websites and web apps.
   Also, I'm open to remote 
   and in-person positions. 

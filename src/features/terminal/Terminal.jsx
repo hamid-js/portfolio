@@ -84,9 +84,9 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 lg:p-10 text-[--primary-color-300] shadow-md md:m-0 2xl:min-w-[50rem] "
+      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 lg:p-10 text-[--primary-color-300] shadow-md md:m-0 2xl:min-w-[42rem] 2xl:py-32   "
     >
-      <div className="w-4/4  m-auto pb-5  xl:text-xl ">
+      <div className="w-4/4  m-auto pb-5  xl:text-xl 2xl:text-2xl  ">
         <span className=" font-bold text-[var(--secondary-color-500)]">
           {"Hi, I'm Hamid Mohamadi "} 
         </span>
@@ -103,7 +103,7 @@ const Terminal = () => {
           <a href="https://github.com/hamid-js">GitHub</a>
         </div>
       </div>
-      <div className="max-w-md text-wrap">
+      <div className="max-w-md text-wrap 2xl:text-2xl  ">
         {output.map((entry, index) => (
           <div className="mt-5" key={index}>
             <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">{`~/hamid-mohamadi>`} </span>

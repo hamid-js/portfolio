@@ -9,7 +9,7 @@ const mainProjectsData = [
     demoLink: 'https://hamiddev.vercel.app/',
     codeLink: 'https://github.com/hamid-js/portfolio',
     description:
-      ' A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interfacefor searching, comparing, and reserving cars.',
+      ' This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.',
   },
   {
     tec: ['react js', 'css', 'react icon', 'tailwind'],
@@ -18,10 +18,10 @@ const mainProjectsData = [
     title: 'Restaurant',
     image: '/assets/projects/mainProject-1.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
+    demoLink: 'https://hamid-restaurant.vercel.app/',
     codeLink: 'https://github.com/hamid-js/portfolio',
     description:
-      ' A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interfacefor searching, comparing, and reserving cars.',
+      "The Restaurant Project is a modern web application designed to showcase a restaurant's menu, provide information about the restaurant, and allow users to explore various sections seamlessly. Key features include React Router for navigation, Redux for state management, API integration for reading data from a backend, and Tailwind CSS for a responsive and visually appealing design.",
   },
   {
     tec: ['react js', 'css', 'react icon', 'tailwind'],
@@ -30,10 +30,10 @@ const mainProjectsData = [
     title: 'Car Service',
     image: '/assets/projects/mainProject-2.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
+    demoLink: 'https://avang.vercel.app/',
+    codeLink: 'https://github.com/hamid-js/avang',
     description:
-      ' A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interfacefor searching, comparing, and reserving cars.',
+      ' The Car Repair Service Platform is a web application built using React.js, designed to streamline and enhance the experience of car owners in need of repair services. This platform connects car owners with professional mechanics, facilitating a seamless process for service requests, appointments, and communication.',
   },
   {
     tec: ['react js', 'css', 'react icon', 'tailwind'],
@@ -42,10 +42,10 @@ const mainProjectsData = [
     title: 'Movies List',
     image: '/assets/projects/mainProject-3.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
+    demoLink: 'https://github.com/hamid-js/movie-hub',
+    codeLink: 'https://github.com/hamid-js/movie-hub',
     description:
-      ' A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interfacefor searching, comparing, and reserving cars.',
+      ' Movie Hub is an engaging web application developed using React.js and CSS, designed to be your go-to platform for exploring and organizing your favorite movies. Powered by the OMDB API, the hub seamlessly fetches comprehensive movie data, offering users a rich and dynamic browsing experience. You can also save movies in the watch list in local storage.',
   },
 ];
 

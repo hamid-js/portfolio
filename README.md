@@ -1,7 +1,7 @@
 # Hamid Dev personal Website
 [Live Preview](https://portfolio-hamid-js.vercel.app/)
 ## Overview
-![Alt Text](/assets/)
+![portfolio](/assets/projects/portfolio.png)
 
 Welcome to my portfolio website! This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.
 

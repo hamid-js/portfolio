@@ -120,7 +120,7 @@ const Terminal = () => {
         {output.map((entry, index) => (
           <div className="mt-5" key={index}>
             <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">
-              {`~/hamid-mohamadi>`}
+              {`~/hamid>`}
             </span>
             {entry.command}
             <br />
@@ -129,7 +129,7 @@ const Terminal = () => {
         ))}
         <div>
           <span className="font-bold text-[var(--secondary-color-500)]">
-            {'~/hamid-mohamadi>'}
+            {'~/hamid>'}
           </span>
           <input
             type="text"

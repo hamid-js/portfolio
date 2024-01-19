@@ -16,7 +16,7 @@ export default function Footer() {
     <>
       <footer className=" rounded-lg bg-[var(--primary-color-700)] pt-10  ">
        
-        <div className="flex flex-wrap items-center justify-around gap-x-14 gap-y-4  text-5xl text-[var(--secondary-color-300)] mx-16  2xl:gap-20">
+        <div className="flex flex-wrap items-center justify-around gap-x-14 gap-y-4  text-5xl text-[var(--secondary-color-300)] mx-16 xl:p-0 2xl:py-16 2xl:gap-20">
           <SiReact />
           <SiJavascript />
           <SiCss3 />

@@ -97,14 +97,14 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 text-[--primary-color-300] shadow-md md:m-0 lg:p-10 2xl:min-w-[42rem] 2xl:py-32   "
+      className=" lg:w-6/6 xl:p-auto my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 text-[--primary-color-300] shadow-md md:m-0 lg:p-10 xl:min-w-[35rem] 2xl:min-w-[42rem] 2xl:py-32   "
     >
       <div className="w-4/4  m-auto pb-5  xl:text-xl 2xl:text-2xl  ">
         <span className=" font-bold text-[var(--secondary-color-500)]">
           {"Hi, I'm Hamid Mohamadi "}
         </span>
 
-        <div className="relative mb-72 2xl:mb-96">
+        <div className="relative mb-72 2xl:mb-96 ">
           <Typewriter text={text} maxWidth={400} wordDelay={50} />
         </div>
         <div className="mt-10 flex gap-4 font-bold text-[var(--secondary-color-500)]">
@@ -118,7 +118,7 @@ const Terminal = () => {
       </div>
       <div className="max-w-md text-wrap 2xl:text-2xl  ">
         {output.map((entry, index) => (
-          <div className="mt-5" key={index}>
+          <div className="mt-5 w-full" key={index}>
             <span className="my-9 font-semibold text-[var(--secondary-color-500)] ">
               {`~/hamid>`}
             </span>

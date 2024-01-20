@@ -28,7 +28,7 @@ function App() {
       </nav>
 
       <main className=" md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-[var(--secondary-color-500)] lg:m-0 lg:mr-9 lg:flex lg:w-full lg:items-start lg:justify-between lg:gap-5 lg:shadow-none ">
-        <div className=" lg:mt-6 lg:max-h-[33rem] lg:min-w-[26rem] xl:max-h-[33rem] xl:min-w-[28rem]  ">
+        <div className=" lg:mt-6 lg:max-h-[33rem] lg:min-w-[24rem] xl:max-h-[33rem] xl:min-w-[28rem]  ">
           <HiroCard />
         </div>
 
@@ -39,7 +39,7 @@ function App() {
             } `}
           >
             <About />
-            <Testomonials />
+            {/* <Testomonials /> */}
           </div>
           <div
             className={` ${sections} ${

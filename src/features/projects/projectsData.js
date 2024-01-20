@@ -12,19 +12,27 @@ const mainProjectsData = [
       ' This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.',
   },
   {
-    tec: ['react js', 'css', 'react icon', 'tailwind'],
+    tec: [
+      'css',
+      'tailwind',
+      'redux',
+      'react js',
+      'react icon',
+      'react-router-dom',
+      'restful api',
+    ],
 
     id: 2,
     title: 'Restaurant',
     image: '/assets/projects/mainProject-1.png',
 
     demoLink: 'https://hamid-restaurant.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
+    codeLink: 'https://github.com/hamid-js/restaurant',
     description:
       "The Restaurant Project is a modern web application designed to showcase a restaurant's menu, provide information about the restaurant, and allow users to explore various sections seamlessly. Key features include React Router for navigation, Redux for state management, API integration for reading data from a backend, and Tailwind CSS for a responsive and visually appealing design.",
   },
   {
-    tec: ['react js', 'css', 'react icon', 'tailwind'],
+    tec: ['react js', 'js', ' responive by css ', 'css Modules'],
 
     id: 3,
     title: 'Car Service',
@@ -36,7 +44,7 @@ const mainProjectsData = [
       ' The Car Repair Service Platform is a web application built using React.js, designed to streamline and enhance the experience of car owners in need of repair services. This platform connects car owners with professional mechanics, facilitating a seamless process for service requests, appointments, and communication.',
   },
   {
-    tec: ['react js', 'css', 'react icon', 'tailwind'],
+    tec: ['react js', 'css', 'restful api', 'tailwind'],
 
     id: 4,
     title: 'Movies List',
@@ -59,9 +67,9 @@ const miniProjectsData = [
     title: 'Bob form',
     image: '/assets/projects/mini-1.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://hamid-js.github.io/bob/',
+    codeLink: 'https://github.com/hamid-js/bob',
+    description: ' A beautiful creative form with the character of Spongebob. ',
   },
 
   {
@@ -71,20 +79,21 @@ const miniProjectsData = [
     title: 'Cooking list',
     image: '/assets/projects/mini-2.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://cooking-list.vercel.app/',
+    codeLink: 'https://github.com/hamid-js/cooking-list',
+    description:
+      ' a simple application that helps users manage their favorite recipes ',
   },
   {
     tec: ['vanila js', 'redux', 'css'],
 
     id: 3,
-    title: 'todo list',
+    title: ' Redux Todolist',
     image: '/assets/projects/mini-3.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://hamid-js.github.io/redux-todo/',
+    codeLink: 'https://github.com/hamid-js/redux-todo',
+    description: ' a simple TodoList app using Redux and JavaScript.',
   },
   {
     tec: ['vanila js', 'css'],
@@ -93,9 +102,10 @@ const miniProjectsData = [
     title: 'BMI ',
     image: '/assets/projects/mini-4.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://hamid-js.github.io/bmi/',
+    codeLink: 'https://github.com/hamid-js/bmi',
+    description:
+      "This is a very basic project that calculates your Body Mass Index (BMI) based on the user's height and weight",
   },
   {
     tec: ['vanila js', 'css'],
@@ -104,9 +114,9 @@ const miniProjectsData = [
     title: 'Profile Card',
     image: '/assets/projects/mini-5.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://hamid-js.github.io/profile/',
+    codeLink: 'https://github.com/hamid-js/profile',
+    description: 'This project is a simple profile card website. ',
   },
   {
     tec: ['vanila js', 'css'],
@@ -115,20 +125,41 @@ const miniProjectsData = [
     title: 'Context Menu',
     image: '/assets/projects/mini-6.png',
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    demoLink: 'https://hamid-js.github.io/context/',
+    codeLink: 'https://github.com/hamid-js/context',
+    description:
+      'This project is about creating a context menu for the web browser.',
   },
   {
     tec: ['vanila js', 'css'],
 
     id: 7,
-    title: 'Gradient',
+    title: 'Gradient Generator',
     image: '/assets/projects/mini-7.png',
+    demoLink: 'https://hamid-js.github.io/gradient/',
+    codeLink: 'https://github.com/hamid-js/gradient',
+    description:
+      ' This is a small project where you can make your own gradient. ',
+  },
+  {
+    tec: ['vanila js', 'css'],
 
-    demoLink: 'https://hamiddev.vercel.app/',
-    codeLink: 'https://github.com/hamid-js/portfolio',
-    description: ' A car rental website is an online ',
+    id: 8,
+    title: 'Character Maker',
+    image: '/assets/projects/mini-8.png',
+    demoLink: 'https://hamid-js.github.io/make-face/',
+    codeLink: 'https://github.com/hamid-js/make-face',
+    description: ' a simple yet engaging character creation program! ',
+  },
+  {
+    tec: ['other...'],
+
+    id: "in githb",
+    title: 'other projects ',
+    image: '/assets/projects/my-github.png',
+    demoLink: 'https://github.com/hamid-js/',
+    codeLink: 'https://github.com/hamid-js/',
+    description: ' you can see other project in my github page : ',
   },
 ];
 

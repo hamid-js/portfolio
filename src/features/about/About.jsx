@@ -31,7 +31,7 @@ export default function About() {
       <Title
         icon={<ImMagicWand />}
         firstPart="front-end "
-        secondPart="debeloper "
+        secondPart="developer "
         className="text-lg 2xl:text-3xl "
       />
 
@@ -48,13 +48,7 @@ export default function About() {
         />
 
         <p className="font-extralightligh  mt-5 pb-12 text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed">
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
-          A system administrator, or sysadmin, Data scientist, Systems engineer
-          from USA, California. I have rich experience in managing,
-          troubleshooting, licensing, and updating hardware and software assets.
+        With over 2 years of expertise in WordPress design and SEO, I seamlessly connect the realms of aesthetics and functionality. As a WordPress designer, I've crafted visually appealing and user-friendly websites, while my SEO proficiency ensures optimal online visibility. This unique blend of skills positions me as a versatile professional, ready to bridge the gap between design and development in collaborative front-end development projects.
         </p>
       </div>
     </div>

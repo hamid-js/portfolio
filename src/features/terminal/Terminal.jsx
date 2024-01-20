@@ -46,7 +46,10 @@ const Terminal = () => {
       Development tools: Git and GitHub, NPM, Visual Studio Code, Vite
       Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
       contact: (
-        <div className="my-10 flex gap-4  text-purple-400">
+        <>
+        <p className='mt-10 mb-5 font-semibold'>You can reach me at :</p>
+        <div className="mb-7 flex gap-4  text-purple-400">
+        
           <a href="mailto: hamid.reactjs@gmail.com" target="blank">
             Email
           </a>
@@ -63,6 +66,7 @@ const Terminal = () => {
             GitHub
           </a>
         </div>
+        </>
       ),
       clear: '',
     };

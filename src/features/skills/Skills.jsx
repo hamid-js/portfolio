@@ -36,10 +36,11 @@ py-5"
           <SkillItem title="HTML 5 , CSS 3" />
           <SkillItem title="Tailwind CSS" />
           <SkillItem title="java script" className="w-4/5" percentage={'80'} />
-          <SkillItem title="React js" className="w-4/5" percentage={'80'} />
+          <SkillItem title="React js"  />
           <SkillItem title="git , github" />
           <SkillItem title="redux " className="w-4/5" percentage={'80'} />
           <SkillItem title="responsive " />
+          <SkillItem title="restful api " />
         </div>
 
         <Title

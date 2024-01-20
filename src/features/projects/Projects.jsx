@@ -2,24 +2,29 @@ import { useState } from 'react';
 
 import ProjectItem from './ProjectItem';
 
-import { mainProjectsData,miniProjectsData} from './projectsData';
+import { mainProjectsData, miniProjectsData } from './projectsData';
 const tabsStyle =
-  'cursor-pointer  shadow-md:shadow-[--secondary-color-500] rounded-sm py-3 text-center  shadow-sm  transition-all duration-1000 hover:text-[--secondary-color-400] xl:text-sm ';
+  'cursor-pointer  shadow-md:shadow-[--secondary-color-500] rounded-sm py-3 text-center  shadow-sm  transition-all duration-1000 hover:text-[--secondary-color-600] xl:text-sm ';
 export default function Projects() {
   const [showMainProjects, setShowMainProjects] = useState(true);
 
   return (
     <div
       id="projects"
-      className=" mb-5 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  py-12   "
+      className=" pb-20 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  py-12   "
     >
       <div className=" mx-auto  my-10 bg-[var(--primary-color-800)]">
         <div className="mx-auto  h-[32rem]  ">
+        <p className='text-xs px-10 pb-10 text-[--primary-color-300] '>
+              Note : Some of the projects were not my idea and I was inspired to
+              design them.
+            </p>
           <div className="mb-5 flex w-full items-center justify-around bg-[--primary-color-700] px-4  text-sm uppercase tracking-widest transition-all duration-500   ">
+           
             <div
               className={`${tabsStyle} ${
                 showMainProjects &&
-                'w-1/2 scale-125 bg-[--primary-color-600] text-[--secondary-color-400]'
+                'w-1/2 scale-125 bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
               }`}
               onClick={() => setShowMainProjects(true)}
             >
@@ -29,40 +34,50 @@ export default function Projects() {
             <div
               className={` ${tabsStyle} ${
                 !showMainProjects &&
-                'w-1/2 scale-125  bg-[--primary-color-600] text-[--secondary-color-400]'
+                'w-1/2 scale-125  bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
               }`}
               onClick={() => setShowMainProjects(false)}
             >
               mini Projects
             </div>
           </div>
-          <div className="mx-auto mb-10 h-full w-11/12 overflow-y-scroll  rounded-lg bg-[--primary-color-600] p-10 ">
+          <div className="mx-auto mb-10 h-full w-11/12 overflow-y-scroll  rounded-lg bg-[--primary-color-900]  px-8 ">
             {showMainProjects ? (
               <>
                 {mainProjectsData.map((project) => (
-                  <ProjectItem
-                    key={project.id}
-                    title={project.title}
-                    image={project.image}
-                    demoLink={project.demoLink}
-                    codeLink={project.codeLink}
-                    description={project.description}
-                    tec={project.tec}
-                  />
+                  <div className="border-b-4  border-[--primary-color-700] pb-10 last:border-none">
+                    <p className="py-10 pl-36 font-semibold tracking-wider text-[--secondary-color-500]">
+                      Project {project.id}
+                    </p>
+                    <ProjectItem
+                      key={project.id}
+                      title={project.title}
+                      image={project.image}
+                      demoLink={project.demoLink}
+                      codeLink={project.codeLink}
+                      description={project.description}
+                      tec={project.tec}
+                    />
+                  </div>
                 ))}
               </>
             ) : (
               <>
-               {miniProjectsData.map((project) => (
-                  <ProjectItem
-                    key={project.id}
-                    title={project.title}
-                    image={project.image}
-                    demoLink={project.demoLink}
-                    codeLink={project.codeLink}
-                    description={project.description}
-                    tec={project.tec}
-                  />
+                {miniProjectsData.map((project) => (
+                  <div className="border-b-4  border-[--primary-color-700] pb-10 last:border-none">
+                    <p className="py-10 pl-24 capitalize font-semibold text-[--secondary-color-500]">
+                      Mini project {project.id}
+                    </p>
+                    <ProjectItem
+                      key={project.id}
+                      title={project.title}
+                      image={project.image}
+                      demoLink={project.demoLink}
+                      codeLink={project.codeLink}
+                      description={project.description}
+                      tec={project.tec}
+                    />
+                  </div>
                 ))}
               </>
             )}

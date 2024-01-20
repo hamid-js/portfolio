@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import Navbar from './features/nav/Navbar';
-import HiroCard from './features/articles/HiroCard';
-import About from './features/articles/About';
-import Testomonials from './features/articles/Testomonials';
+import HiroCard from './features/hiro/HiroCard';
+import About from './features/about/About';
+import Testomonials from './features/ui/Testomonials';
 import Skills from './features/skills/Skills';
 import Projects from './features/projects/Projects';
 import Footer from './features/footer/Footer';
@@ -21,7 +21,7 @@ function App() {
 
   //
   return (
-    <div className="z-[9999] flex-col  text-[--color-stone] md:ml-7  md:flex  md:flex-row md:items-start md:justify-center  md:gap-20  lg:gap-0  overflow-x-hidden   ">
+    <div className="z-[9999] flex-col  overflow-x-hidden text-[--color-stone]  md:ml-7  md:flex md:flex-row md:items-start  md:justify-center  md:gap-20  lg:gap-0   ">
       <MatrixBackground />
       <nav className="lg:mt-10 xl:ml-16 ">
         <Navbar showActiveComponent={showActiveComponent} />

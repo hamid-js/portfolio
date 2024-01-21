@@ -15,7 +15,7 @@ export default function ProjectItem({
     <>
       <div className=" mb-10 flex flex-col items-center justify-evenly gap-0  rounded-md bg-[var(--primary-color-700)] pt-5 2xl:gap-8   ">
         <img
-          className=" rounded-lg lg:mx-auto lg:w-5/6   "
+          className="  rounded-lg lg:mx-auto w-11/12   "
           src={image}
           alt={title}
         />

@@ -11,16 +11,15 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className=" pb-20 flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)]  py-12   "
+      className=" flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)] py-12  pb-20   "
     >
       <div className=" mx-auto  my-10 bg-[var(--primary-color-800)]">
         <div className="mx-auto  h-[32rem]  ">
-        <p className='text-xs px-10 pb-10 text-[--primary-color-300] '>
-              Note : Some of the projects were not my idea and I was inspired to
-              design them.
-            </p>
+          <p className="px-10 pb-10 text-xs text-[--primary-color-300] ">
+            Note : Some of the projects were not my idea and I was inspired to
+            design them.
+          </p>
           <div className="mb-5 flex w-full items-center justify-around bg-[--primary-color-700] px-4  text-sm uppercase tracking-widest transition-all duration-500   ">
-           
             <div
               className={`${tabsStyle} ${
                 showMainProjects &&
@@ -45,12 +44,14 @@ export default function Projects() {
             {showMainProjects ? (
               <>
                 {mainProjectsData.map((project) => (
-                  <div className="border-b-4  border-[--primary-color-700] pb-10 last:border-none">
+                  <div
+                    key={project.id}
+                    className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
+                  >
                     <p className="py-10 pl-36 font-semibold tracking-wider text-[--secondary-color-500]">
                       Project {project.id}
                     </p>
                     <ProjectItem
-                      key={project.id}
                       title={project.title}
                       image={project.image}
                       demoLink={project.demoLink}
@@ -64,12 +65,14 @@ export default function Projects() {
             ) : (
               <>
                 {miniProjectsData.map((project) => (
-                  <div className="border-b-4  border-[--primary-color-700] pb-10 last:border-none">
-                    <p className="py-10 pl-24 capitalize font-semibold text-[--secondary-color-500]">
+                  <div
+                    key={project.id}
+                    className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
+                  >
+                    <p className="py-10 pl-24 font-semibold capitalize text-[--secondary-color-500]">
                       Mini project {project.id}
                     </p>
                     <ProjectItem
-                      key={project.id}
                       title={project.title}
                       image={project.image}
                       demoLink={project.demoLink}

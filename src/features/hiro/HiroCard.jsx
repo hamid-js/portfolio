@@ -18,23 +18,23 @@ export default function HiroCard() {
         muted
         playsInline
         preload="auto"
-        className="my-clip-path h-96 w-full object-cover  md:h-70 md:rounded-t-lg lg:h-44    "
+        className="my-clip-path h-96 w-full object-cover  md:h-70 md:rounded-t-lg lg:h-[40vh]    "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <img
-        className="z-10 mt-[-6rem] h-36 w-36 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)]"
+        className="z-10 -mt-28  lg:-mt-20 h-44 w-44 lg:h-28 lg:w-28 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)]"
         src="/assets/img-3.png"
         alt=""
       />
-      <h1 className="mt-7 font-serif text-2xl capitalize  tracking-widest md:text-3xl">
+      <h1 className="mt-5 font-serif text-2xl capitalize  tracking-widest md:text-2xl">
         Hamid Mohammadi
       </h1>
-      <h2 className="text-l font-serif  capitalize text-[var(--secondary-color-400)]">
+      <h2 className="text-lg font-serif  capitalize text-[var(--secondary-color-400)]">
         Front-End Devloper
       </h2>
-      <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-2xl  ">
+      <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-xl  ">
         <a className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
@@ -72,10 +72,10 @@ export default function HiroCard() {
           <ImLinkedin />
         </a>
       </div>
-      <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)]">
+      <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)] lg:text-lg">
         <a
           className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110"
-          href="/assets/cv-hamid-mohammadi.pdf"
+          href="/assets/hamidmohamadi.pdf"
           download="Hamid-Mohamadi-Frontend.pdf"
           target='_blank'
         >
@@ -88,7 +88,7 @@ export default function HiroCard() {
           </div>
         </a>
 
-        <span className="h-20 border-r-[1px] border-[var(--primary-color-700)] "></span>
+        <span className="h-12 border-r-[1px] border-[var(--primary-color-700)] "></span>
         <a className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110" href="tel:09371355148" target='_blank'>
           <div className="flex items-center justify-center gap-2">
             <span> contact me</span>

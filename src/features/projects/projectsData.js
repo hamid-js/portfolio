@@ -1,6 +1,6 @@
 const mainProjectsData = [
   {
-    tec: ['react js', 'css', 'react icon', 'tailwind', 'full responsive'],
+    tec: ['react js', 'css', "canvas",'react icon', 'tailwind', 'full responsive'],
 
     id: 1,
     title: 'Portfolio',

@@ -25,7 +25,7 @@ export default function HiroCard() {
       </video>
       <img
         className="z-10 mt-[-6rem] h-36 w-36 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)]"
-        src="/assets/img-2.png"
+        src="/assets/img-3.png"
         alt=""
       />
       <h1 className="mt-7 font-serif text-2xl capitalize  tracking-widest md:text-3xl">
@@ -76,7 +76,8 @@ export default function HiroCard() {
         <a
           className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110"
           href="/assets/cv-hamid-mohammadi.pdf"
-          download="cv-hamid-mohammadi.pdf"
+          download="Hamid-Mohamadi-Frontend.pdf"
+          target='_blank'
         >
           <div className="flex items-center justify-center gap-2">
             <span>download cv</span>
@@ -88,7 +89,7 @@ export default function HiroCard() {
         </a>
 
         <span className="h-20 border-r-[1px] border-[var(--primary-color-700)] "></span>
-        <a className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110" href="tel:09371355148">
+        <a className="p-4 hover:text-[--secondary-color-500] duration-300 hover:scale-110" href="tel:09371355148" target='_blank'>
           <div className="flex items-center justify-center gap-2">
             <span> contact me</span>
 

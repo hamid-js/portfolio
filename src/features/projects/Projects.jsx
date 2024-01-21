@@ -48,7 +48,7 @@ export default function Projects() {
                     key={project.id}
                     className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
                   >
-                    <p className="py-10 pl-36 font-semibold tracking-wider text-[--secondary-color-500]">
+                    <p className="py-10 pr-10  text-center  font-semibold tracking-wider text-[--secondary-color-500]">
                       Project {project.id}
                     </p>
                     <ProjectItem
@@ -69,7 +69,7 @@ export default function Projects() {
                     key={project.id}
                     className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
                   >
-                    <p className="py-10 pl-24 font-semibold capitalize text-[--secondary-color-500]">
+                    <p className="py-10 pr-10  text-center font-semibold capitalize text-[--secondary-color-500]">
                       Mini project {project.id}
                     </p>
                     <ProjectItem

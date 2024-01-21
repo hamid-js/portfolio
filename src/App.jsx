@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="z-[9999] flex-col  overflow-x-hidden text-[--color-stone]  md:ml-7  md:flex md:flex-row md:items-start  md:justify-center  md:gap-5    ">
       <MatrixBackground />
-      <nav className=" z-20 w-full transition-all duration-500 md:mt-5 md:w-14 md:gap-0  lg:static lg:mt-12  lg:h-[30rem] lg:w-16 xl:ml-16  xl:w-16 2xl:w-20  ">
+      <nav className=" fixed md:static z-20 w-full transition-all duration-500 md:mt-5 md:w-14 md:gap-0   lg:mt-12  lg:h-[30rem] lg:w-16 xl:ml-16  xl:w-16 2xl:w-20  ">
         <Navbar showActiveComponent={showActiveComponent} />
       </nav>
 

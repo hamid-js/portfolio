@@ -34,7 +34,7 @@ function App() {
           <HiroCard />
         </div>
 
-        <section className="lg:my-3 lg:max-h-[93vh] lg:min-w-[27rem] lg:overflow-y-auto lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10   xl:min-w-80 ">
+        <section className="lg:my-5 lg:max-h-[93vh] lg:min-w-[27rem] lg:overflow-y-auto lg:rounded-xl  lg:border lg:border-[var(--secondary-color-500)] lg:shadow-lg  lg:shadow-[var(--secondary-color-500)] xl:mr-10   xl:min-w-80 ">
           <div
             className={` ${sections} ${
               activeComponent === 'about' ? open : ''

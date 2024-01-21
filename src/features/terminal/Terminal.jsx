@@ -73,9 +73,9 @@ const Terminal = () => {
 
     // Check if the input command exists, otherwise show an error
     const response = commands[input.toLowerCase()] || (
-      <span className="text-sm  text-red-700">
-        Command <span className="font-bold">'{input}'</span> not found. Type
-        <span className="font-bold"> 'help' </span> for available commands.
+      <span className="text-sm  font-medium text-red-700">
+        Command <span className="font-bold text-lg">'{input}'</span> not found. Type
+        <span className="font-bold text-lg"> 'help' </span> for available commands.
       </span>
     );
 

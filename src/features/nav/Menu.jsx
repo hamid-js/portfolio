@@ -27,7 +27,7 @@ export default function Menu({ showActiveComponent }) {
 
   return (
     <div className="w-full items-center justify-center px-5  py-6 md:px-0 ">
-      <ul className="flex items-center justify-between text-sm capitalize md:flex-col md:gap-y-5  lg:gap-y-3   2xl:gap-y-5 2xl:text-lg ">
+      <ul className="flex items-center justify-between text-sm capitalize md:flex-col md:gap-y-6 2xl:text-lg ">
         <li
           onClick={(e) => scrollToSection(e, 'about')}
           className={`${itemsStyle} ${active === 'about' ? activeStyle : ''} `}

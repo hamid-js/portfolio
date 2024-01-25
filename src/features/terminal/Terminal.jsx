@@ -19,24 +19,34 @@ const Terminal = () => {
       help: (
         <div className="flex flex-col items-center justify-around">
           <div className="mt-2 flex w-full items-center justify-between  ">
-            <span className="text-purple-500">help: </span>
-            <span>list all commands</span>
+            <span className="font-bold text-[var(--secondary-color-500)]">
+              help:
+            </span>
+            <span>List Of all Commands</span>
           </div>
           <div className="mt-2 flex w-full items-center justify-between  ">
-            <span className="text-purple-500"> about : </span>
-            <span> about me</span>
+            <span className="font-bold text-[var(--secondary-color-500)]">
+              about :
+            </span>
+            <span> About Me</span>
           </div>
           <div className="mt-2 flex w-full items-center justify-between  ">
-            <span className="text-purple-500"> skills : </span>
-            <span>list my skills</span>
+            <span className="font-bold text-[var(--secondary-color-500)]">
+              skills :
+            </span>
+            <span>List Of My skills </span>
           </div>
           <div className="mt-2 flex w-full items-center justify-between  ">
-            <span className="text-purple-500"> contact :</span>
-            <span>contact me</span>
+            <span className="font-bold text-[var(--secondary-color-500)]">
+              contact :
+            </span>
+            <span>Contact Me</span>
           </div>
           <div className="mt-2 flex w-full items-center justify-between  ">
-            <span className="text-purple-500"> clear : </span>
-            <span>clear the terminal`</span>
+            <span className="font-bold text-[var(--secondary-color-500)]">
+              clear :
+            </span>
+            <span>Clear The Terminal`</span>
           </div>
         </div>
       ),
@@ -47,25 +57,24 @@ const Terminal = () => {
       Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
       contact: (
         <>
-        <p className='mt-10 mb-5 font-semibold'>You can reach me at :</p>
-        <div className="mb-7 flex gap-4  text-purple-400">
-        
-          <a href="mailto: hamid.reactjs@gmail.com" target="blank">
-            Email
-          </a>
-          <a href="https://t.me/hamid_develop" target="blank">
-            Telegram
-          </a>
-          <a
-            href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
-            target="blank"
-          >
-            LinkedIn
-          </a>
-          <a target="blank" href="https://github.com/hamid-js">
-            GitHub
-          </a>
-        </div>
+          <p className="mb-5 mt-10 font-semibold">You can reach me at :</p>
+          <div className="[var(--secondary-color-600)] mb-7 flex  gap-4">
+            <a href="mailto: hamid.reactjs@gmail.com" target="blank">
+              Email
+            </a>
+            <a href="https://t.me/hamid_develop" target="blank">
+              Telegram
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
+              target="blank"
+            >
+              LinkedIn
+            </a>
+            <a target="blank" href="https://github.com/hamid-js">
+              GitHub
+            </a>
+          </div>
         </>
       ),
       clear: '',
@@ -74,12 +83,14 @@ const Terminal = () => {
     // Check if the input command exists, otherwise show an error
     const response = commands[input.toLowerCase()] || (
       <span className="text-sm  font-medium text-red-700">
-        Command <span className="font-bold text-lg">'{input}'</span> not found. Type
-        <span className="font-bold text-lg"> 'help' </span> for available commands.
+        Command <span className="text-lg font-bold">'{input}'</span> not found.
+        Type
+        <span className="text-lg font-bold"> 'help' </span> for available
+        commands.
       </span>
     );
 
-    if (input === 'clear') return setOutput([]), setInput('');
+    if (input.toLocaleLowerCase === 'clear') return setOutput([]), setInput('');
     // Update the output with the input command and its response
     setOutput((prevOutput) => [...prevOutput, { command: input, response }]);
 
@@ -101,7 +112,7 @@ const Terminal = () => {
   return (
     <div
       id="terminal"
-      className=" lg:w-6/6  my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 text-[--primary-color-300] shadow-md md:m-0 lg:p-10  2xl:py-32   xl:min-w-[35rem] 2xl:min-w-[50rem]  "
+      className=" lg:w-6/6  my-16 h-full w-full overflow-hidden rounded-md bg-[--color-black] p-5 text-[--primary-color-300] shadow-md md:m-0 lg:p-10  xl:min-w-[35rem]   2xl:min-w-[50rem] 2xl:py-32  "
     >
       <div className="w-4/4  m-auto pb-5   xl:text-xl 2xl:text-2xl  ">
         <span className=" font-bold text-[var(--secondary-color-500)]">

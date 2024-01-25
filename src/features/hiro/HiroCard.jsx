@@ -21,7 +21,7 @@ export default function HiroCard({ onLoad }) {
 
   return (
     <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  ">
-      {isLoading || <Loader />}
+      {isLoading && <Loader />}
       <video
         onLoadedData={handleLoad}
         autoPlay

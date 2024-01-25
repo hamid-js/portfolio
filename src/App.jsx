@@ -65,7 +65,7 @@ function App() {
             </div>
 
             <div
-              className={` ${sections} ${
+              className={`  ${sections} ${
                 activeComponent === 'terminal' ? open : ''
               } `}
             >

@@ -9,10 +9,11 @@ import {
 } from 'react-icons/im';
 const hoverStyle = 'hover:text-[--secondary-color-500] duration-300 hover:scale-125'
 
-export default function HiroCard() {
+export default function HiroCard({onLoad}) {
   return (
     <div className="mb-5 flex flex-col items-center justify-center rounded-b-xl bg-[var(--primary-color-800)] md:mt-2    md:gap-3 md:text-xl md:shadow-md md:shadow-[var(--secondary-color-500)]  ">
       <video
+      onLoadedData={onLoad}
         autoPlay
         loop
         muted

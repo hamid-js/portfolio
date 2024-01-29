@@ -47,7 +47,7 @@ export default function About() {
           className="text-sm sm:text-lg 2xl:text-3xl"
         />
 
-        <p className="font-extralightligh m-auto mt-5 w-11/12 pb-12 text-sm sm:text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed">
+        <p className="font-extralightligh m-auto mt-5 w-11/12 pb-12 text-[3.5vw]sm:text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl leading-relaxed">
           With over 2 years of expertise in WordPress design and SEO, I
           seamlessly connect the realms of aesthetics and functionality. As a
           WordPress designer, I've crafted visually appealing and user-friendly

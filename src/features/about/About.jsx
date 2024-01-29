@@ -3,10 +3,10 @@ import Title from '../ui/Title';
 import Typewriter from '../ui/Typewriter';
 const text = `
  Hello, I'm Hamid Mohammadi, 
-a seasoned Front End Developer with a
-year of dedicated experience in web development.
+a seasoned Front End Developer with 3
+years of dedicated experience in web development.
 My expertise spans HTML5, CSS3, and JavaScript,
-with a focus onReact, Redux, Tailwind, and Git.
+with a focusing on React, Redux, Tailwind, and Git.
 I bring a dynamic approach to creating
 user-centric experiences, evident in my portfolio, where
 each project showcases my problem-solving prowess and

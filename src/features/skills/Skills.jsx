@@ -32,7 +32,7 @@ py-5"
           heading={'lg'}
         />
 
-        <div className="  w-full p-7  text-[--color-white]">
+        <div className=" text-sm sm:text-lg  w-full px-4 sm:p-6  text-[--color-white]">
           <SkillItem title="HTML 5 , CSS 3" />
           <SkillItem title="Tailwind CSS" />
           <SkillItem title="java script" className="w-4/5" percentage={'80'} />
@@ -47,11 +47,9 @@ py-5"
           icon={<ImTrophy />}
           firstPart="oth"
           secondPart="er"
-          border={'600'}
-          padding={'7'}
-          heading="lg"
+          
         />
-        <div className="flex flex-wrap items-center justify-center  p-7 text-sm   ">
+        <div className="flex flex-wrap items-center justify-center  sm:p-5 text-xs sm:text-sm  ">
           <MiniSkill text="RESTful API" />
           <MiniSkill text="context api" />
           <MiniSkill text="scss" />

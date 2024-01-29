@@ -6,7 +6,7 @@ import { ImBubble2, ImProfile, ImStarFull, ImTerminal } from 'react-icons/im';
 const itemsStyle =
   ' flex flex-col items-center justify-center md:gap-y-1 md:border-b md:pb-1  md:last:border-b-0 md:border-slate-700 cursor-pointer hover:text-[--secondary-color-500] duration-500 hover:scale-125  ';
 const activeStyle =
-  'scale-125 xl:scale-110 font-bold text-[--secondary-color-500]';
+  'scale-110 font-bold text-[--secondary-color-500]';
 
 export default function Menu({ showActiveComponent }) {
   const [active, setActive] = useState('');
@@ -26,8 +26,8 @@ export default function Menu({ showActiveComponent }) {
   };
 
   return (
-    <div className="w-full items-center justify-center px-5  py-6 md:px-0 ">
-      <ul className="flex items-center justify-between text-sm capitalize md:flex-col md:gap-y-6 2xl:text-lg ">
+    <div className="w-full items-center justify-center   py-6 md:px-0 ">
+      <ul className="flex items-center justify-around text-xs sm:text-sm capitalize md:flex-col md:gap-y-6 2xl:text-lg ">
         <li
           onClick={(e) => scrollToSection(e, 'about')}
           className={`${itemsStyle} ${active === 'about' ? activeStyle : ''} `}
@@ -44,7 +44,7 @@ export default function Menu({ showActiveComponent }) {
           <span>
             <ImProfile />
           </span>
-          <a className="tracking-widest"> Skills</a>
+          <a className="sm:tracking-widest"> Skills</a>
         </li>
         <li
           onClick={(e) => scrollToSection(e, 'projects')}

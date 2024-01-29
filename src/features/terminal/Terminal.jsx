@@ -50,7 +50,8 @@ const Terminal = () => {
           </div>
         </div>
       ),
-      about: `I'm a frontend web developer and optimization enthusiast who respects writing clean, maintainable, and performant code while also paying attention to small details. Fluent in both Persian and English, I enjoy working with diverse clients and colleagues. While my primary goal is to consistently improve my skills and expand my knowledge, I currently work as a freelance web developer, not only crafting seamless user experiences but also fine-tuning website performance for optimal results. In addition, I take pleasure in sharing my expertise with fellow developers and have been willingly contributing to various developer communities on social media platforms for about a year now.`,
+      about: `Hello, I'm Hamid Mohammadi,  a seasoned Front End Developer with a
+      year of dedicated experience in web development. My expertise spans HTML5, CSS3, and JavaScript, with a focus onReact, Redux, Tailwind, and Git. I bring a dynamic approach creating user-centric experiences, evident in my portfolio, where each project showcases my problem-solving prowess andcoding finesse.responsive designs to interactive React applications, my commitment to excellenceshines through. I'm eager contribute my skills and passion to the ever-evolving landscape of web development.and updating hardware and software assets.`,
       skills: `Programming languages: JavaScript
       Key Frameworks and libraries: React js, CSS, redux, SCSS, Tailwind CSS, MUI
       Development tools: Git and GitHub, NPM, Visual Studio Code, Vite
@@ -90,7 +91,7 @@ const Terminal = () => {
       </span>
     );
 
-    if (input.toLocaleLowerCase === 'clear') return setOutput([]), setInput('');
+    if (input.toLowerCase() === 'clear') return setOutput([]), setInput('');
     // Update the output with the input command and its response
     setOutput((prevOutput) => [...prevOutput, { command: input, response }]);
 

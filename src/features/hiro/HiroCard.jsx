@@ -35,7 +35,7 @@ export default function HiroCard({ onLoad }) {
         Your browser does not support the video tag.
       </video>
       <img
-        className="z-10 -mt-28  h-44 w-44 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)] lg:-mt-20 lg:h-28 lg:w-28"
+        className="z-10 -mt-20 sm:-mt-28  h-36 w-36  sm:h-44 sm:w-44 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)] lg:-mt-20 lg:h-28 lg:w-28"
         src="/assets/img-3.png"
         alt=""
       />
@@ -88,9 +88,9 @@ export default function HiroCard({ onLoad }) {
           <ImLinkedin />
         </a>
       </div>
-      <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)] lg:text-lg">
+      <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)] text-sm sm:text-lg lg:text-lg">
         <a
-          className="p-4 duration-300 hover:scale-110 hover:text-[--secondary-color-500]"
+          className="p-2 sm:p-4 duration-300 hover:scale-110 hover:text-[--secondary-color-500]"
           href="/assets/hamidmohamadi.pdf"
           download="Hamid-Mohamadi-Frontend.pdf"
           target="_blank"
@@ -106,7 +106,7 @@ export default function HiroCard({ onLoad }) {
 
         <span className="h-12 border-r-[1px] border-[var(--primary-color-700)] "></span>
         <a
-          className="p-4 duration-300 hover:scale-110 hover:text-[--secondary-color-500]"
+          className="p-2 sm:p-4 duration-300 hover:scale-110 hover:text-[--secondary-color-500]"
           href="tel:09371355148"
           target="_blank"
         >

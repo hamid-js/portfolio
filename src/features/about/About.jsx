@@ -20,11 +20,11 @@ export default function About() {
   return (
     <div
       id="about"
-      className=" flex flex-col items-start justify-evenly gap-5  overflow-x-hidden  bg-[var(--primary-color-800)]  2xl:px-16 "
+      className=" flex flex-col items-start justify-evenly gap-5  overflow-x-hidden  bg-[var(--primary-color-800)]  2xl:px-16"
     >
       <Title
         icon={<ImProfile />}
-        firstPart="About "
+        firstPart="About"
         secondPart="Me"
         className="text-lg 2xl:text-4xl "
       />
@@ -32,11 +32,11 @@ export default function About() {
         icon={<ImMagicWand />}
         firstPart="front-end "
         secondPart="developer "
-        className="text-lg 2xl:text-3xl "
+        className="px-0 text-xs sm:text-lg 2xl:text-3xl"
       />
 
-      <div className="text-[--primary-color-300]  pl-5 sm:pl-3 xl:px-10  ">
-        <div className="font-extralightligh leading-relaxed  relative mb-72 sm:mb-96   pb-12 text-sm sm:text-lg   xl:mb-[25rem] 2xl:mb-[35rem] 2xl:text-2xl 2xl:leading-relaxed  ">
+      <div className="pl-3 text-[--primary-color-300] sm:pl-3  ">
+        <div className="font-extralightligh relative  mb-[80vw] w-5/6 pb-12   text-[3.5vw]  leading-relaxed sm:mx-auto  sm:mb-96  sm:text-lg lg:w-full lg:text-[1.6vw] xl:text-xl xl:mb-[25rem]  2xl:mb-[35rem] 2xl:text-2xl 2xl:leading-relaxed ">
           <Typewriter text={text} wordDelay={30} />
         </div>
 
@@ -44,11 +44,17 @@ export default function About() {
           icon={<ImMagicWand />}
           firstPart="wordpress "
           secondPart="designer "
-          className="text-lg 2xl:text-3xl"
+          className="text-sm sm:text-lg 2xl:text-3xl"
         />
 
-        <p className="font-extralightligh  mt-5 pb-12 text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed">
-        With over 2 years of expertise in WordPress design and SEO, I seamlessly connect the realms of aesthetics and functionality. As a WordPress designer, I've crafted visually appealing and user-friendly websites, while my SEO proficiency ensures optimal online visibility. This unique blend of skills positions me as a versatile professional, ready to bridge the gap between design and development in collaborative front-end development projects.
+        <p className="font-extralightligh m-auto mt-5 w-11/12 pb-12 text-sm sm:text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl 2xl:leading-relaxed">
+          With over 2 years of expertise in WordPress design and SEO, I
+          seamlessly connect the realms of aesthetics and functionality. As a
+          WordPress designer, I've crafted visually appealing and user-friendly
+          websites, while my SEO proficiency ensures optimal online visibility.
+          This unique blend of skills positions me as a versatile professional,
+          ready to bridge the gap between design and development in
+          collaborative front-end development projects.
         </p>
       </div>
     </div>

@@ -59,9 +59,10 @@ export default function Navbar({ showActiveComponent }) {
 
   return (
     // fixed  top-0 z-20 w-full   md:fixed md:float-left md:mr-3  md:mt-5 md:flex  md:h-[28rem] md:w-14 md:flex-col  lg:static lg:h-[30rem] lg:w-16  xl:w-16 2xl:w-20
-    <div  >
+    <div className='md:fixed 
+    ' >
       <div
-        className={`h-18 flex  w-full items-center justify-between bg-[var(--primary-color-900)] px-5 py-2 md:rounded-t-lg md:shadow-md md:shadow-[var(--secondary-color-500)] ${
+        className={`h-18 flex  w-full items-center justify-between bg-[var(--primary-color-900)] px-2 sm:px-5 py-2 md:rounded-t-lg md:shadow-md md:shadow-[var(--secondary-color-500)] ${
           !isOpenMenu && 'md:rounded-lg'
         }`}
       >
@@ -72,8 +73,8 @@ export default function Navbar({ showActiveComponent }) {
             alt=""
           />
 
-          <div className="mx-3">
-            <h2 className="capitalize">Hamid Mohammadi</h2>
+          <div className="mx-1 sm:mx-4">
+            <h2 className="capitalize text-">Hamid Mohammadi</h2>
             <p className="text-xs font-semibold text-[var(--secondary-color-400)]">
               Front-End Developer
             </p>

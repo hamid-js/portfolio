@@ -11,7 +11,7 @@ I bring a dynamic approach to creating
 user-centric experiences, evident in my portfolio, where
 each project showcases my problem-solving prowess and
 coding finesse.From responsive designs to interactive
-React applications, my commitment to excellence
+React applications, my commitment to excellence 
 shines through. I'm eager to contribute my skills and
 passion to the ever-evolving landscape of web 
 development.and updating hardware and software assets.

@@ -12,6 +12,7 @@ export default function Contact() {
         icon={<ImBubble2 />}
         firstPart="Contact "
         secondPart="Form"
+        className='text-lg sm:text-xl sm:mt-5'
       
       />
 

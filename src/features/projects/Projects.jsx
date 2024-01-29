@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem';
 
 import { mainProjectsData, miniProjectsData } from './projectsData';
 const tabsStyle =
-  'cursor-pointer  shadow-md:shadow-[--secondary-color-500] rounded-sm py-3 text-center  shadow-sm  transition-all duration-1000 hover:text-[--secondary-color-600] xl:text-sm ';
+  'cursor-pointer text-xs sm:text-sm  shadow-md:shadow-[--secondary-color-500] rounded-sm py-3 text-center  shadow-sm  transition-all duration-1000 hover:text-[--secondary-color-600] xl:text-sm ';
 export default function Projects() {
   const [showMainProjects, setShowMainProjects] = useState(true);
 
@@ -13,9 +13,9 @@ export default function Projects() {
       id="projects"
       className=" flex flex-col items-start justify-evenly gap-8 rounded-lg bg-[var(--primary-color-800)] py-12  pb-20   "
     >
-      <div className=" mx-auto  my-10 bg-[var(--primary-color-800)]">
+      <div className=" mx-auto  sm:my-10 bg-[var(--primary-color-800)]">
         <div className="mx-auto  h-[32rem]  ">
-          <p className="px-10 pb-10 text-xs text-[--primary-color-300] ">
+          <p className="px-4 sm:px-10 pb-5 sm:pb-10 text-xs text-[--primary-color-300] ">
             Note : Some of the projects were not my idea and I was inspired to
             design them.
           </p>
@@ -23,7 +23,7 @@ export default function Projects() {
             <div
               className={`${tabsStyle} ${
                 showMainProjects &&
-                'w-1/2 scale-125 bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
+                'w-1/2 scale-110  sm:scale-125 bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
               }`}
               onClick={() => setShowMainProjects(true)}
             >
@@ -33,7 +33,7 @@ export default function Projects() {
             <div
               className={` ${tabsStyle} ${
                 !showMainProjects &&
-                'w-1/2 scale-125  bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
+                'w-1/2 scale-110  sm:scale-125   bg-[--primary-color-900] font-semibold text-[--secondary-color-500]'
               }`}
               onClick={() => setShowMainProjects(false)}
             >

@@ -20,11 +20,11 @@ export default function ProjectItem({
           alt={title}
         />
 
-        <h3 className=" ml-[-3rem] flex items-center justify-center p-3 capitalize text-[--secondary-color-400]">
+        <h3 className=" sm:ml-[-3rem] flex items-center justify-center p-3 capitalize text-[--secondary-color-400]">
           {title}
         </h3>
 
-        <p className="px-10 py-0 text-center capitalize  xl:text-sm 2xl:text-2xl 2xl:leading-relaxed ">
+        <p className=" w-11/12 mx-auto leading-6 text-sm sm:px-10 py-0 text-center capitalize  xl:text-sm 2xl:text-2xl 2xl:leading-relaxed ">
           {description}
         </p>
         <div className="my-3 flex  flex-wrap items-center justify-center">

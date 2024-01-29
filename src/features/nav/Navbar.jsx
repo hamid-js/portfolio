@@ -81,7 +81,7 @@ export default function Navbar({ showActiveComponent }) {
           </div>
         </div>
 
-        <div className="flex w-16  items-center  justify-between md:my-2 md:w-full md:flex-col md:justify-center md:gap-7  md:text-xl">
+        <div className="flex w-16  items-center  justify-between md:my-2 md:w-full md:flex-col md:justify-center md:gap-7 cursor-pointer md:text-xl">
           <div>
             <label>
               <input

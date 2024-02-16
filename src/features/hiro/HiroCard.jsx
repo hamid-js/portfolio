@@ -29,7 +29,7 @@ export default function HiroCard({ onLoad }) {
         muted
         playsInline
         preload="auto"
-        className="my-clip-path md:h-70 h-96 w-full  object-cover md:rounded-t-lg lg:h-[40vh]    "
+        className="my-clip-path md:h-70 h-96 w-full  object-cover md:rounded-t-lg lg:h-[36vh]    "
       >
         <source src="/assets/card-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

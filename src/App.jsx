@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 
 import Navbar from './features/nav/Navbar';
 import HiroCard from './features/hiro/HiroCard';
@@ -9,7 +9,6 @@ import Footer from './features/footer/Footer';
 import Terminal from './features/terminal/Terminal';
 import MatrixBackground from './features/ui/MatrixAnimation';
 import MouseMover from './features/ui/MouseMover';
-import Loader from './features/ui/Loader';
 
 const sections =
   'lg:hidden lg:max-h-[38rem] lg:transition-all lg:duration-1000 lg:rounded-xl ';
@@ -31,12 +30,12 @@ function App() {
 
         <MouseMover />
         <MatrixBackground />
-        <nav className=" fixed z-20 w-full transition-all duration-500 md:static md:mt-5 md:w-14 md:gap-0 lg:mt-[2%] lg:h-[30rem] lg:w-16 xl:ml-16 xl:w-16 2xl:w-20">
+        <nav className=" fixed z-20 w-full transition-all duration-500 md:static md:mt-5 md:w-14 md:gap-0 lg:mt-[2%] lg:h-[30rem] lg:w-16 xl:ml-[2%] xl:w-16 2xl:w-20">
           <Navbar showActiveComponent={showActiveComponent} />
         </nav>
         <main className="  md:mr-16 md:w-4/6 md:text-xl md:shadow-lg md:shadow-[var(--secondary-color-500)] lg:m-0 lg:mr-9 lg:flex lg:w-full lg:items-start lg:justify-between lg:gap-5 lg:shadow-none ">
           {/* lg:max-h-[33rem] */}
-          <div className=" lg:mt-0   lg:min-h-[90vh]  lg:min-w-[38vw] xl:lg:min-w-[36vw]  2xl:min-w-[31vw]  ">
+          <div className=" lg:mt-[1%]   lg:min-h-[90vh]  lg:min-w-[38vw] xl:lg:min-w-[36vw]  2xl:min-w-[31vw]  ">
             <HiroCard  />
           </div>
 

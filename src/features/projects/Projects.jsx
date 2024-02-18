@@ -43,13 +43,13 @@ export default function Projects() {
           <div className="mx-auto mb-10 h-full w-11/12 overflow-y-scroll  rounded-lg bg-[--primary-color-900]  px-8 ">
             {showMainProjects ? (
               <>
-                {mainProjectsData.map((project) => (
+                {mainProjectsData.map((project , index) => (
                   <div
                     key={project.id}
                     className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
                   >
                     <p className="py-10 pr-10  text-center  font-semibold tracking-wider text-[--secondary-color-500]">
-                      Project {project.id}
+                      Project {index + 1}
                     </p>
                     <ProjectItem
                       title={project.title}

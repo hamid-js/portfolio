@@ -1,15 +1,39 @@
 const mainProjectsData = [
   {
-    tec: ['react js', 'css', "canvas",'react icon', 'tailwind', 'full responsive'],
+    tec: [
+      'react js',
+      'context api',
+      'react-router-dom',
+      'react icon',
+      'tailwind',
+      'hot toast',
+    ],
 
+    id: 5,
+    title: 'Savis Market',
+    image: '/assets/projects/mainProject-4.png',
+
+    demoLink: 'https://savismarket.vercel.app/',
+    codeLink: 'https://github.com/hamid-js/savismarket',
+    description:
+      'An elegant online shop crafted with React.js and Tailwind CSS, featuring seamless navigation with React Router DOM. Users can easily add products to their wishlist, compare list, or cart, enhancing their shopping experience.',
+  },
+  {
+    tec: [
+      'react js',
+      'css',
+      'canvas',
+      'react icon',
+      'tailwind',
+      'full responsive',
+    ],
     id: 1,
     title: 'Portfolio',
     image: '/assets/projects/portfolio.png',
-
     demoLink: 'https://hamiddev.vercel.app/',
     codeLink: 'https://github.com/hamid-js/portfolio',
     description:
-      ' This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.',
+      'An elegant online shop crafted with React.js and Tailwind CSS, featuring seamless navigation with React Router DOM. Users can easily add products to their wishlist, compare list, or cart, enhancing their shopping experience.',
   },
   {
     tec: [
@@ -154,7 +178,7 @@ const miniProjectsData = [
   {
     tec: ['other...'],
 
-    id: "in githb",
+    id: 'in githb',
     title: 'other projects ',
     image: '/assets/projects/my-github.png',
     demoLink: 'https://github.com/hamid-js/',

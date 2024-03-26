@@ -34,13 +34,12 @@ py-5"
 
         <div className=" text-sm sm:text-lg  w-full px-4 sm:p-6  text-[--color-white]">
           <SkillItem title="HTML 5 , CSS 3" />
+          <SkillItem title="Responsive" />
           <SkillItem title="Tailwind CSS" />
           <SkillItem title="java script" className="w-4/5" percentage={'80'} />
           <SkillItem title="React js"  />
-          <SkillItem title="git , github" />
           <SkillItem title="redux " className="w-4/5" percentage={'80'} />
-          <SkillItem title="responsive " />
-          <SkillItem title="restful api " />
+          <SkillItem title="git , github" />
         </div>
 
         <Title
@@ -50,14 +49,14 @@ py-5"
           
         />
         <div className="flex flex-wrap items-center justify-center  sm:p-5 text-xs sm:text-sm  ">
-          <MiniSkill text="RESTful API" />
-          <MiniSkill text="context api" />
+          <MiniSkill text="Next js" />
+          <MiniSkill text="Type Script" />
           <MiniSkill text="scss" />
+          <MiniSkill text="RESTful API" />
           <MiniSkill text="mui" />
-          <MiniSkill text="bootstrap" />
-          <MiniSkill text="Responsive" />
           <MiniSkill text="wordpress" />
-          <MiniSkill text="jquery" />
+          <MiniSkill text="bootstrap" />
+          <MiniSkill text="zustand" />
           <MiniSkill text="seo" />
         </div>
       </div>

@@ -9,7 +9,7 @@ const mainProjectsData = [
       'hot toast',
     ],
 
-    id: 5,
+    id: 6,
     title: 'Savis Market',
     image: '/assets/projects/mainProject-4.png',
 
@@ -17,6 +17,18 @@ const mainProjectsData = [
     codeLink: 'https://github.com/hamid-js/savismarket',
     description:
       'An elegant online shop crafted with React.js and Tailwind CSS, featuring seamless navigation with React Router DOM. Users can easily add products to their wishlist, compare list, or cart, enhancing their shopping experience.',
+  },
+  {
+    tec: ['react js', 'SPA', 'react-router-dom', 'tailwind'],
+
+    id: 5,
+    title: 'restaurant-menu',
+    image: '/assets/projects/mainProject-5.png',
+
+    demoLink: 'https://sibland57.ir/',
+    codeLink: 'https://sibland57.ir/',
+    description:
+      'The Sibland Menu Project is a user-friendly web app crafted with React.js and TailwindCSS, designed to simplify restaurant menu management and enhance customer experience.',
   },
   {
     tec: [
@@ -33,7 +45,7 @@ const mainProjectsData = [
     demoLink: 'https://hamiddev.vercel.app/',
     codeLink: 'https://github.com/hamid-js/portfolio',
     description:
-      'An elegant online shop crafted with React.js and Tailwind CSS, featuring seamless navigation with React Router DOM. Users can easily add products to their wishlist, compare list, or cart, enhancing their shopping experience.',
+      'This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.',
   },
   {
     tec: [

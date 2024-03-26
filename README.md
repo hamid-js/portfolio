@@ -2,10 +2,10 @@
 ## Live Preview
 👉👉[Live Preview](https://portfolio-hamid-js.vercel.app/)👈👈
 ## images
-![portfolio](./public/assets/projects/portfolio-1.png)
-![portfolio](./public/assets/projects/portfolio-2.png)
-![portfolio](./public/assets/projects/portfolio-3.png)
-![portfolio](./public/assets/projects/portfolio-4.png)
+![portfolio-image-1](./public/assets/projects/portfolio-1.png)
+![portfolio-image-2](./public/assets/projects/portfolio-2.png)
+![portfolio-image-3](./public/assets/projects/portfolio-3.png)
+![portfolio-image-4](./public/assets/projects/portfolio-4.png)
 ## Overview
 Welcome to my portfolio website! This platform is designed to showcase my projects, provide insights into my skills, and offer a glimpse into who I am as a developer. The website is built using Tailwind CSS and React JS, combining simplicity with modern design principles.
 

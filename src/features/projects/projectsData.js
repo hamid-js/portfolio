@@ -41,7 +41,7 @@ const mainProjectsData = [
     ],
     id: 1,
     title: 'Portfolio',
-    image: '/assets/projects/portfolio.png',
+    image: '/assets/projects/portfolio-1.png',
     demoLink: 'https://hamiddev.vercel.app/',
     codeLink: 'https://github.com/hamid-js/portfolio',
     description:

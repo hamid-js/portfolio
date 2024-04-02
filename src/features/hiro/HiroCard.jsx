@@ -35,8 +35,8 @@ export default function HiroCard({ onLoad }) {
         Your browser does not support the video tag.
       </video>
       <img
-        className="z-10 -mt-20 sm:-mt-28  h-36 w-36  sm:h-44 sm:w-44 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)] lg:-mt-20 lg:h-28 lg:w-28"
-        src="/assets/m66.jpg"
+        className="z-10 -mt-20 sm:-mt-28  h-36 w-36  sm:h-44 sm:w-44 rounded-2xl border-[var(--color-black)] shadow-lg shadow-[var(--secondary-color-500)] lg:-mt-20 lg:h-28 lg:w-28 "
+        src="/assets/m1m.jpg"
         alt=""
       />
       <h1 className="mt-5 font-serif text-2xl capitalize  tracking-widest md:text-2xl">

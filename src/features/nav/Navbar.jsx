@@ -68,8 +68,8 @@ export default function Navbar({ showActiveComponent }) {
       >
         <div className="flex items-start justify-between md:hidden ">
           <img
-            className="h-12 w-12 rounded-full "
-            src="/assets/m66.jpg"
+            className="h-12 w-12 rounded-full bg-white "
+            src="/assets/m1m.jpg"
             alt=""
           />
 

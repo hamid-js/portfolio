@@ -37,7 +37,7 @@ export default function Projects() {
               }`}
               onClick={() => setShowMainProjects(false)}
             >
-              mini Projects
+              Fun Projects
             </div>
           </div>
           <div className="mx-auto mb-10 h-full w-11/12 overflow-y-scroll  rounded-lg bg-[--primary-color-900]  px-8 ">
@@ -49,7 +49,7 @@ export default function Projects() {
                     className="border-b-4  border-[--primary-color-700] pb-10 last:border-none"
                   >
                     <p className="py-10 pr-10  text-center  font-semibold tracking-wider text-[--secondary-color-500]">
-                      Project {index + 1}
+                      {/* Project {index + 1} */}
                     </p>
                     <ProjectItem
                       title={project.title}

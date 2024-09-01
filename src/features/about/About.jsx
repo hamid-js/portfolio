@@ -3,10 +3,11 @@ import Title from '../ui/Title';
 import Typewriter from '../ui/Typewriter';
 const text = `
  Hello, I'm Hamid Mohammadi, 
-a seasoned Front End Developer with 2
-years of dedicated experience in web development.
-My expertise spans HTML5, CSS3, and JavaScript,
-with a focusing on React, Redux, Tailwind, and Git.
+a seasoned Web Developer with 4
+years of experience in in web development,
+including 2 years specializing in front-end development.
+My expertise spans JavaScript (ES6, ES7, etc.), 
+with a focus on Next.js, React, Redux, Tailwind, and Git.
 I bring a dynamic approach to creating
 user-centric experiences, evident in my portfolio, where
 each project showcases my problem-solving prowess and
@@ -48,7 +49,7 @@ export default function About() {
         />
 
         <p className="font-extralightligh m-auto mt-5 w-11/12 pb-12 text-[3.5vw]sm:text-lg  text-[--primary-color-300] md:text-xl xl:text-lg  2xl:text-2xl leading-relaxed">
-          With over 2 years of expertise in WordPress design and SEO, I
+          With over 2 years of expertise in WordPress Developer and SEO Specialist, I
           seamlessly connect the realms of aesthetics and functionality. As a
           WordPress developer, I've crafted visually appealing and user-friendly
           websites, while my SEO proficiency ensures optimal online visibility.

@@ -33,12 +33,12 @@ py-5"
         />
 
         <div className=" text-sm sm:text-lg  w-full px-4 sm:p-6  text-[--color-white]">
-          <SkillItem title="HTML 5 , CSS 3" />
-          <SkillItem title="Responsive" />
-          <SkillItem title="Tailwind CSS" />
-          <SkillItem title="java script" className="w-4/5" percentage={'80'} />
-          <SkillItem title="React js"  />
-          <SkillItem title="redux " className="w-4/5" percentage={'80'} />
+          <SkillItem title="java script, ES6, ES7, ..." />
+          <SkillItem title="React js , Redux" />
+          <SkillItem title="Next js"  />
+          <SkillItem title="RESTful API " />
+          <SkillItem title="HTML 5 , CSS 3 , Tailwind CSS" />
+          <SkillItem title=" Responsive design"  />
           <SkillItem title="git , github" />
         </div>
 
@@ -49,15 +49,54 @@ py-5"
           
         />
         <div className="flex flex-wrap items-center justify-center  sm:p-5 text-xs sm:text-sm  ">
-          <MiniSkill text="Next js" />
-          <MiniSkill text="Type Script" />
-          <MiniSkill text="scss" />
-          <MiniSkill text="RESTful API" />
-          <MiniSkill text="mui" />
-          <MiniSkill text="wordpress" />
           <MiniSkill text="bootstrap" />
+          <MiniSkill text="scss" />
+          <MiniSkill text="Node Js" />
+          <MiniSkill text="mysql" />
+          <MiniSkill text="Type Script" />
+          <MiniSkill text="mui" />
           <MiniSkill text="zustand" />
-          <MiniSkill text="seo" />
+        </div>
+
+        <Title
+          icon={<ImTerminal />}
+          firstPart="SEO"
+          secondPart="skills"
+          border={'600'}
+          width="1/2"
+          padding={'7'}
+          heading={'lg'}
+        />
+
+        <div className=" text-sm sm:text-lg  w-full px-4 sm:p-6  text-[--color-white]">
+          <SkillItem title="On-page SEO Optimization" />
+          <SkillItem title="Page Speed Optimization" />
+          <SkillItem title="Google Analytics" />
+          <SkillItem title="Google Search Console"  />
+          <SkillItem title="Keyword Research & Maping"  />
+          <SkillItem title="A/B Testing " />
+          <SkillItem title="Internal Linking " />
+          <SkillItem title="SEO Strategy Development " />
+        </div>
+        <Title
+          icon={<ImTerminal />}
+          firstPart="Word"
+          secondPart="Press"
+          border={'600'}
+          width="1/2"
+          padding={'7'}
+          heading={'lg'}
+        />
+
+        <div className=" text-sm sm:text-lg  w-full px-4 sm:p-6  text-[--color-white]">
+          <SkillItem title="Elementor Expertise" />
+          <SkillItem title="WooCommerce Customization " />
+          <SkillItem title="User Experience (UX) Optimization" />
+          <SkillItem title="Theme Customization"  />
+          <SkillItem title="WordPress Theme Development"  />
+          <SkillItem title="Site Speed Optimization" />
+         
+          
         </div>
       </div>
     </div>

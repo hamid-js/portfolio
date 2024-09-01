@@ -14,7 +14,7 @@ export default function SkillItem({
             className={`w-5/5 h-full bg-[var(--secondary-color-500)] transition-all ${className}`}
           ></div>
         </div>
-        {<div>{percentage}%</div>}
+        {<div>✔️</div>}
       </div>
     </div>
   );

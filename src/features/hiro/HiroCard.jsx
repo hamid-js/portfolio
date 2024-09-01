@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import {
-  ImCloudDownload,
+  // ImCloudDownload,
   ImCompass,
   ImGithub,
-  ImInstagram,
-  ImLinkedin,
+  // ImInstagram,
+  // ImLinkedin,
+  
   ImMail,
+  ImPhone,
   ImTelegram,
 } from 'react-icons/im';
 import Loader from '../ui/Loader';
@@ -43,17 +45,17 @@ export default function HiroCard({ onLoad }) {
         Hamid Mohammadi
       </h1>
       <h2 className="font-serif text-lg  capitalize text-[var(--secondary-color-400)]">
-        Front-End Devloper
+        Web Devloper
       </h2>
       <div className="my-3 flex w-full cursor-pointer items-center justify-center gap-5 p-3 md:text-xl  ">
-        <a
+        {/* <a
           className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.instagram.com/hamid_develop_"
         >
           <ImInstagram />
-        </a>
+        </a> */}
 
         <a
           className={hoverStyle}
@@ -67,7 +69,7 @@ export default function HiroCard({ onLoad }) {
           className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
-          href="mailto: hamid.reactjs@gmail.com"
+          href="mailto: hamiddevelop78@gmail.com"
         >
           <ImMail />
         </a>
@@ -79,27 +81,29 @@ export default function HiroCard({ onLoad }) {
         >
           <ImTelegram />
         </a>
-        <a
+        {/* <a
           className={hoverStyle}
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/hamidreza-mohamadi-a1357a249/"
         >
           <ImLinkedin />
-        </a>
+        </a> */}
       </div>
-      <div className="flex w-full items-center justify-evenly border-t border-[var(--primary-color-700)] uppercase text-[var(--color-white)] text-sm sm:text-lg lg:text-lg">
+      <div className="flex w-full capitalize items-center justify-evenly border-t border-[var(--primary-color-700)]  text-[var(--color-white)] text-sm sm:text-lg lg:text-lg">
         <a
           className="p-2 sm:p-4 duration-300 hover:scale-110 hover:text-[--secondary-color-500]"
-          href="/assets/hamidmohamadi.pdf"
-          download="Hamid-Mohamadi-Frontend.pdf"
+          // href="/assets/hamidmohamadi.pdf"
+          // download="Hamid-Mohamadi-Frontend.pdf"
+          rel="noopener noreferrer"
+          href="https://t.me/hamid_develop"
           target="_blank"
         >
-          <div className="flex items-center justify-center gap-2">
-            <span>download cv</span>
+          <div className="flex  items-center justify-center gap-2">
+            <span>send message</span>
 
             <span>
-              <ImCloudDownload />
+              <ImCompass />
             </span>
           </div>
         </a>
@@ -114,7 +118,7 @@ export default function HiroCard({ onLoad }) {
             <span> contact me</span>
 
             <span>
-              <ImCompass />
+              <ImPhone  />
             </span>
           </div>
         </a>

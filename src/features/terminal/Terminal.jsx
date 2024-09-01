@@ -50,12 +50,7 @@ const Terminal = () => {
           </div>
         </div>
       ),
-      about: `Hello, I'm Hamid Mohammadi,  a seasoned Front End Developer with a
-      year of dedicated experience in web development. My expertise spans HTML5, CSS3, and JavaScript, with a focus onReact, Redux, Tailwind, and Git. I bring a dynamic approach creating user-centric experiences, evident in my portfolio, where each project showcases my problem-solving prowess andcoding finesse.responsive designs to interactive React applications, my commitment to excellenceshines through. I'm eager contribute my skills and passion to the ever-evolving landscape of web development.and updating hardware and software assets.`,
-      skills: `Programming languages: JavaScript
-      Key Frameworks and libraries: React js, CSS, redux, SCSS, Tailwind CSS, MUI
-      Development tools: Git and GitHub, NPM, Visual Studio Code, Vite
-      Soft skills: Love independent and comprehensive learning, Find joy in effective teamwork and helping others, Problem analysis and solving, Accurate, Perfectly arranged and on-time`,
+      about: `Hello, I'm Hamid Mohammadi, a seasoned web developer with 4 years of dedicated experience in web development and SEO. My coding skills include JavaScript (including ES6) with a focus on Next.js, React, Redux, Tailwind, and Git. I also specialize in key SEO techniques like keyword research, on-page optimization, and improving site speed, which help enhance website visibility and performance in search engines. From creating responsive designs to optimizing websites for better search rankings, my work demonstrates a commitment to delivering high-quality, user-friendly web experiences. I'm eager to contribute my skills and passion to the ever-evolving field of web development and SEO.`,
       contact: (
         <>
           <p className="mb-5 mt-10 font-semibold">You can reach me at :</p>
